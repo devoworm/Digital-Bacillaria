@@ -1,7 +1,10 @@
 # Video Frames
+
+<em>Note: The github GUI will not show all frames and truncate them to a 1000 pics, You can view each frame by cloning the repo</em> 
+
 Folder 1 contains the frames for videos at https://drive.google.com/drive/u/1/folders/1hilD9WUrbrKf2_hERho-gPB-EWMpEoFG
 and a frame-extractor python code for the same.
-
+ 
 Folder 2 contains the frame for following videos.
 1. bacillaria-paxillifer-1
 2. bacillaria-paxillifer-2
