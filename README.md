@@ -15,16 +15,16 @@ We are working with images primarily from these two species:
 
 <p align="center">
   <img width="160" height="270" src="https://user-images.githubusercontent.com/19001437/58395892-f2ed1800-800f-11e9-9a64-4cd517ea57ac.png"><BR>
-  Drawing by Muller (circa 1792). Figures 2 and 3 are type specimens for _Bacillaria paxillifer_. Click to enlarge.
 </p>
+   Drawing by Muller (circa 1792). Figures 2 and 3 are type specimens for _Bacillaria paxillifer_. Click to enlarge.  
 
 ## Description of Bacillaria
 Cells are elongated and motile, sliding along each other, in stacked colonies. Cells are rectangular in girdle view (when in colonies), and lanceolate in valve view. Raphe system is slightly keeled and runs from pole to pole. Two large plate-like chloroplasts are present, one near each end of the cell. The nucleus is located centrally. Cells are yellow-brown in colour. Fibulae are strong, and the valve surface is covered in transverse parallel structures called striae.
 
 <p align="center">
   <img width="210" height="166" src="https://user-images.githubusercontent.com/19001437/58396330-ca661d80-8011-11e9-80fe-e0f9fde60dc1.png"><BR>
-  Examples of _Bacillaria_ phenotypes and close-up images of a single cell (filament) using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [1]. Click to enlarge.
 </p>
+  Examples of _Bacillaria_ phenotypes and close-up images of a single cell (filament) using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [1]. Click to enlarge.  
 
 ## Our Goal
 The deliverable here would be to use machine learning techniques to segment the cells in these movies, and establish their movement between movie frames. After that we can create models to define motility of Bacillaria.
