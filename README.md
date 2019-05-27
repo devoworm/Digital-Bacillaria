@@ -32,4 +32,5 @@ The deliverable here would be to use machine learning techniques to segment the 
 To get more info about what is currently going on, check out the issues and subdirectories of this repository.
 
 ## REFERENCES:
-
+Jahn, R. and Schmid, A.M.M. (2007). [Revision of the brackish-freshwater diatom genus _Bacillaria Gmelin_ (Bacillariophyta) 
+with the description of a new variety and two new species](https://www.researchgate.net/publication/249026177_Revision_of_the_brackish-freshwater_diatom_genus_Bacillaria_Gmelin_Bacillariophyta_with_the_description_of_a_new_variety_and_two_new_species). European Journal of Phycology, 42(3), 295-312
