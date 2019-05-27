@@ -14,15 +14,15 @@ We are working with images primarily from these two species:
 2. _Bacillaria paxillifer_ (Hendey, 1951)
 
 <p align="center">
-  <img width="179" height="300" src="https://user-images.githubusercontent.com/19001437/58395892-f2ed1800-800f-11e9-9a64-4cd517ea57ac.png"><BR>
-  Drawing by Muller (circa 1792). Figures 2 and 3 are type specimens for _Bacillaria paxillifer_.
+  <img width="107" height="180" src="https://user-images.githubusercontent.com/19001437/58395892-f2ed1800-800f-11e9-9a64-4cd517ea57ac.png"><BR>
+  Drawing by Muller (circa 1792). Figures 2 and 3 are type specimens for _Bacillaria paxillifer_. Click to enlarge.
 </p>
 
 ## Description of Bacillaria
 Cells are elongated and motile, sliding along each other, in stacked colonies. Cells are rectangular in girdle view (when in colonies), and lanceolate in valve view. Raphe system is slightly keeled and runs from pole to pole. Two large plate-like chloroplasts are present, one near each end of the cell. The nucleus is located centrally. Cells are yellow-brown in colour. Fibulae are strong, and the valve surface is covered in transverse parallel structures called striae.
 
 <p align="center">
-  <img width="350" height="278" src="https://user-images.githubusercontent.com/19001437/58396330-ca661d80-8011-11e9-80fe-e0f9fde60dc1.png"><BR>
+  <img width="210" height="166" src="https://user-images.githubusercontent.com/19001437/58396330-ca661d80-8011-11e9-80fe-e0f9fde60dc1.png"><BR>
   Examples of _Bacillaria_ phenotypes and close-up images of a single cell (filament) using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [1].
 </p>
 
@@ -33,4 +33,4 @@ To get more info about what is currently going on, check out the issues and subd
 
 ## REFERENCES:
 Jahn, R. and Schmid, A.M.M. (2007). [Revision of the brackish-freshwater diatom genus _Bacillaria Gmelin_ (Bacillariophyta) 
-with the description of a new variety and two new species](https://www.researchgate.net/publication/249026177_Revision_of_the_brackish-freshwater_diatom_genus_Bacillaria_Gmelin_Bacillariophyta_with_the_description_of_a_new_variety_and_two_new_species). European Journal of Phycology, 42(3), 295-312
+with the description of a new variety and two new species](https://www.researchgate.net/publication/249026177_Revision_of_the_brackish-freshwater_diatom_genus_Bacillaria_Gmelin_Bacillariophyta_with_the_description_of_a_new_variety_and_two_new_species). European Journal of Phycology, 42(3), 295-312. doi:10.1080/09670260701428864.
