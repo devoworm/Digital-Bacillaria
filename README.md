@@ -14,7 +14,7 @@ We are working with images primarily from these two species:
 2. _Bacillaria paxillifer_ (Hendey, 1951)
 
 <p align="center">
-  <img width="107" height="180" src="https://user-images.githubusercontent.com/19001437/58395892-f2ed1800-800f-11e9-9a64-4cd517ea57ac.png"><BR>
+  <img width="160" height="270" src="https://user-images.githubusercontent.com/19001437/58395892-f2ed1800-800f-11e9-9a64-4cd517ea57ac.png"><BR>
   Drawing by Muller (circa 1792). Figures 2 and 3 are type specimens for _Bacillaria paxillifer_. Click to enlarge.
 </p>
 
@@ -23,7 +23,7 @@ Cells are elongated and motile, sliding along each other, in stacked colonies. C
 
 <p align="center">
   <img width="210" height="166" src="https://user-images.githubusercontent.com/19001437/58396330-ca661d80-8011-11e9-80fe-e0f9fde60dc1.png"><BR>
-  Examples of _Bacillaria_ phenotypes and close-up images of a single cell (filament) using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [1].
+  Examples of _Bacillaria_ phenotypes and close-up images of a single cell (filament) using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [1]. Click to enlarge.
 </p>
 
 ## Our Goal
