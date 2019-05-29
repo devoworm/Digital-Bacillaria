@@ -4,7 +4,7 @@
   <img width="239" height="211" src="https://user-images.githubusercontent.com/19001437/57882552-960c8900-77e9-11e9-9f10-9ab687f6391e.jpg"><BR>
 </p>
 
-_Bacillaria_ is a diatom genus in the [Bacillariaceae family](http://tolweb.org/Bacillariaceae/125684). [Diatoms](http://tolweb.org/Diatoms/) are a group of [Eukaryotic](https://en.wikipedia.org/wiki/Eukaryote) microorganisms composed of cells with silicate walls and that exhibit a unique life-history.
+_Bacillaria_ is a diatom genus in the [Bacillariaceae family](http://tolweb.org/Bacillariaceae/125684). [Diatoms](http://tolweb.org/Diatoms/) are a group of [Eukaryotic](https://en.wikipedia.org/wiki/Eukaryote) microorganisms composed of cells with silicate walls and that exhibit a unique life-history [4].
 
 ## Species
 We are working with images primarily from these two species:  
@@ -33,14 +33,16 @@ The deliverable here would be to use machine learning techniques to segment the 
 
 To get more info about what is currently going on, check out the issues and subdirectories of this repository.
 
-## REFERENCES:
-Gordon, R. (2016). [Partial synchronization of the colonial diatom _Bacillaria paradoxa_](https://riojournal.com/article/7869/). _Research Ideas and Outcomes_, 2, e7869.
+## REFERENCES (numbered in alphabetical order):
+[1] Gordon, R. (2016). [Partial synchronization of the colonial diatom _Bacillaria paradoxa_](https://riojournal.com/article/7869/). _Research Ideas and Outcomes_, 2, e7869.
 
-Jahn, R. and Schmid, A.M.M. (2007). [Revision of the brackish-freshwater diatom genus _Bacillaria Gmelin_ (Bacillariophyta) 
+[2] Jahn, R. and Schmid, A.M.M. (2007). [Revision of the brackish-freshwater diatom genus _Bacillaria Gmelin_ (Bacillariophyta) 
 with the description of a new variety and two new species](https://www.researchgate.net/publication/249026177_Revision_of_the_brackish-freshwater_diatom_genus_Bacillaria_Gmelin_Bacillariophyta_with_the_description_of_a_new_variety_and_two_new_species). _European Journal of Phycology_, 42(3), 295-312. doi:10.1080/09670260701428864.
 
-Kapinga, M.R.M. and Gordon, R. (1992). [Cell Motility Rhythms in _Bacillaria Paxillifer_](https://www.tandfonline.com/doi/abs/10.1080/0269249X.1992.9705215). _Diatom Research_, 7(2), 221-225.
+[3] Kapinga, M.R.M. and Gordon, R. (1992). [Cell Motility Rhythms in _Bacillaria Paxillifer_](https://www.tandfonline.com/doi/abs/10.1080/0269249X.1992.9705215). _Diatom Research_, 7(2), 221-225.
 
-Ussing, A.P., R. Gordon, L. Ector, K. Buczko, A.G. Desnitskiy and S.L. Van Landingham (2005) The colonial diatom Bacillaria 
+[4] Sabater, S. (2009). Diatoms. _Encyclopedia of Inland Waters_, 149-156. doi:10.1016/B978-012370626-3.00135-6
+
+[5] Ussing, A.P., R. Gordon, L. Ector, K. Buczko, A.G. Desnitskiy and S.L. Van Landingham (2005) The colonial diatom Bacillaria 
 paradoxa: chaotic gliding motility, Lindenmeyer Model of colonial morphogenesis, and bibliography, with translation by O.F. 
 Muller (1783). _Diatom Monographs_, 5, 1-139.
