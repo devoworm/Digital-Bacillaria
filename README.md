@@ -4,7 +4,7 @@
   <img width="239" height="211" src="https://user-images.githubusercontent.com/19001437/57882552-960c8900-77e9-11e9-9f10-9ab687f6391e.jpg"><BR>
 </p>
 
-_Bacillaria_ is a diatom genus in the [Bacillariaceae family](http://tolweb.org/Bacillariaceae/125684).
+_Bacillaria_ is a diatom genus in the [Bacillariaceae family](http://tolweb.org/Bacillariaceae/125684). [Diatoms](http://tolweb.org/Diatoms/) are a group of [Eukaryotic](https://en.wikipedia.org/wiki/Eukaryote) microorganisms composed of cells with silicate walls and that exhibit a unique life-history.
 
 ## Species
 We are working with images primarily from these two species:  
