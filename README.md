@@ -41,7 +41,7 @@ with the description of a new variety and two new species](https://www.researchg
 
 [3] Kapinga, M.R.M. and Gordon, R. (1992). [Cell Motility Rhythms in _Bacillaria Paxillifer_](https://www.tandfonline.com/doi/abs/10.1080/0269249X.1992.9705215). _Diatom Research_, 7(2), 221-225.
 
-[4] Sabater, S. (2009). Diatoms. _Encyclopedia of Inland Waters_, 149-156. doi:10.1016/B978-012370626-3.00135-6
+[4] Sabater, S. (2009). [Diatoms](https://www.sciencedirect.com/science/article/pii/B9780123706263001356). _Encyclopedia of Inland Waters_, 149-156. doi:10.1016/B978-012370626-3.00135-6
 
 [5] Ussing, A.P., R. Gordon, L. Ector, K. Buczko, A.G. Desnitskiy and S.L. Van Landingham (2005) The colonial diatom Bacillaria 
 paradoxa: chaotic gliding motility, Lindenmeyer Model of colonial morphogenesis, and bibliography, with translation by O.F. 
