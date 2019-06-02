@@ -19,7 +19,7 @@ We are working with images primarily from these two species:
   
 Drawing by Muller (circa 1792). Figures 2 and 3 are type specimens for _Bacillaria paxillifer_. Click to enlarge.  
 
-## Description of Bacillaria
+### Description of Bacillaria
 Cells are elongated and motile, sliding along each other, in stacked colonies. Cells are rectangular in girdle view (when in colonies), and lanceolate in valve view. Raphe system is slightly keeled and runs from pole to pole. Two large plate-like chloroplasts are present, one near each end of the cell. The nucleus is located centrally. Cells are yellow-brown in colour. Fibulae are strong, and the valve surface is covered in transverse parallel structures called striae.
 
 <p align="center">
@@ -28,12 +28,12 @@ Cells are elongated and motile, sliding along each other, in stacked colonies. C
 
 Examples of _Bacillaria_ phenotypes and close-up images of a single cell (filament) using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [1]. Click to enlarge.  
 
-## Our Goal
+### Our Goal
 The deliverable here would be to use machine learning techniques to segment the cells in these movies, and establish their movement between movie frames. After that we can create models to define motility of Bacillaria.
 
 To get more info about what is currently going on, check out the issues and subdirectories of this repository.
 
-## Using digital data to understand biology
+### Using digital data to understand biology
 One of our goals is to use the data extracted from microscopy images to better understand biological processes such as the movement of a Bacillaria colony. One such example that has been conducted with coarse-grained phenotypic models is to model the hydrodynamics of filament movement through the water column.
 
 <p align="center">
