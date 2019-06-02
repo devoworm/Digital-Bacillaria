@@ -33,6 +33,13 @@ The deliverable here would be to use machine learning techniques to segment the 
 
 To get more info about what is currently going on, check out the issues and subdirectories of this repository.
 
+## Using digital data to understand biology
+One of our goals is to use the data extracted from microscopy images to better understand biological processes such as the movement of a Bacillaria colony. One such example that has been conducted with coarse-grained phenotypic models is to model the hydrodynamics of filament movement through the water column.
+
+<p align="center">
+  <img width="239" height="211" src="https://user-images.githubusercontent.com/19001437/57882552-960c8900-77e9-11e9-9f10-9ab687f6391e.jpg"><BR>
+</p>
+
 ## REFERENCES (numbered in alphabetical order):
 [1] Gordon, R. (2016). [Partial synchronization of the colonial diatom _Bacillaria paradoxa_](https://riojournal.com/article/7869/). _Research Ideas and Outcomes_, 2, e7869.
 
