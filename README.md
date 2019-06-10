@@ -7,11 +7,7 @@
 _Bacillaria_ is a diatom genus in the [Bacillariaceae family](http://tolweb.org/Bacillariaceae/125684). [Diatoms](http://tolweb.org/Diatoms/) are a group of [Eukaryotic](https://en.wikipedia.org/wiki/Eukaryote) microorganisms composed of cells with silica walls and that exhibit a unique life-history [4].
 
 ## Species
-We are working with images primarily from these two species:  
-
-1. _Bacillaria paradoxa_ (Gmelin, 1788)  
-
-2. _Bacillaria paxillifer_ (Hendey, 1951)
+We are working with images from the species _Bacillaria paradoxa_, also known as _Bacillaria paxillifer_.
 
 <p align="center">
   <img width="160" height="270" src="https://user-images.githubusercontent.com/19001437/58395892-f2ed1800-800f-11e9-9a64-4cd517ea57ac.png"><BR>
@@ -19,22 +15,37 @@ We are working with images primarily from these two species:
   
 Drawing by Muller (circa 1792). Figures 2 and 3 are type specimens for _Bacillaria paxillifer_. Click to enlarge.  
 
-### Description of Bacillaria
-Cells are elongated and motile, sliding along each other, in stacked colonies. Cells are rectangular in girdle view (when in colonies), and lanceolate in valve view. Raphe system is slightly keeled and runs from pole to pole. Two large plate-like chloroplasts are present, one near each end of the cell. The nucleus is located centrally. Cells are yellow-brown in colour. Fibulae are strong, and the valve surface is covered in transverse parallel structures called striae.
+### Description of _Bacillaria_
+Cells are elongated and motile, sliding along each other, in stacked colonies. Cells are rectangular in side view. Two large plate-like chloroplasts are present, one near each end of the cell. The nucleus is located centrally. Cells are yellow-brown in colour. 
 
 <p align="center">
   <img width="210" height="166" src="https://user-images.githubusercontent.com/19001437/58396330-ca661d80-8011-11e9-80fe-e0f9fde60dc1.png"><BR>
 </p>
 
-Examples of _Bacillaria_ phenotypes and close-up images of a single cell (filament) using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [1]. Click to enlarge.  
+Examples of _Bacillaria_ colonies and close-up images of single cells using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [1]. Click to enlarge.  
 
 ### Our Goal
-The deliverable here would be to use machine learning techniques to segment the cells in these movies, and establish their movement between movie frames. After that we can create models to define motility of Bacillaria.
+The deliverable here would be to use machine learning techniques to segment individual cells in these movies, and establish the trajectory and orientation of each cell from one movie frame to the next. After that we can create models to define motility of _Bacillaria_.
 
-To get more info about what is currently going on, check out the issues and subdirectories of this repository.
+Additionally, we aim to define five points on each cell:
+
+* the two ends of the cell (1 and 2).
+
+* the midpoint of the line formed between 1 and 2 (3).
+
+* the edges of a cell (4 and 5) defined by drawing a line perpendicular to the axis defined by points 1, 2, and 3.
+
+<p align="center">
+  <img width="210" height="166" src="-------"><BR>
+</p>
+  
+A diagram showing the five points on a sample cell. Click to enlarge.
+  
+
+To get more information about what is currently going on, check out the issues and subdirectories of this repository.
 
 ### Using digital data to understand biology
-One of our goals is to use the data extracted from microscopy images to better understand biological processes such as the movement of a Bacillaria colony. One such example that has been conducted with coarse-grained phenotypic models is to model the hydrodynamics of filament movement through the water column.
+One of our goals is to use the data extracted from microscopy images to better understand biological processes such as the movement of a _Bacillaria_ colony. One such example that has been conducted with coarse-grained phenotypic models is to model the hydrodynamics of filament movement through the water column.
 
 <p align="center">
   <img width="466" height="414" src="https://user-images.githubusercontent.com/19001437/58767418-47345280-8550-11e9-987c-9e302567e55c.png"><BR>
