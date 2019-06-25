@@ -36,7 +36,7 @@ Additionally, we aim to define five points on each cell:
 * the edges of a cell (4 and 5) defined by drawing a line perpendicular to the axis defined by points 1, 2, and 3.
 
 <p align="center">
-  <img width="210" height="166" src="-------"><BR>
+  <img width="141" height="211" src="https://user-images.githubusercontent.com/19001437/60073556-66a14400-96e6-11e9-913d-188015b3f8f1.jpg"><BR>
 </p>
   
 A diagram showing the five points on a sample cell. Click to enlarge.
