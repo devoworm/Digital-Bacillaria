@@ -68,6 +68,8 @@ with the description of a new variety and two new species](https://www.researchg
 paradoxa: chaotic gliding motility, Lindenmeyer Model of colonial morphogenesis, and bibliography, with translation by O.F. 
 Muller (1783). _Diatom Monographs_, 5, 1-139.
 
+## Additional References
+
 <p align="center">
   <img width="330" height="261" src="https://user-images.githubusercontent.com/19001437/60072607-a1ee4380-96e3-11e9-9187-77a4c69d8f4a.png"><BR>
 </p>
