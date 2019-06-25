@@ -67,3 +67,9 @@ with the description of a new variety and two new species](https://www.researchg
 [5] Ussing, A.P., R. Gordon, L. Ector, K. Buczko, A.G. Desnitskiy and S.L. Van Landingham (2005) The colonial diatom Bacillaria 
 paradoxa: chaotic gliding motility, Lindenmeyer Model of colonial morphogenesis, and bibliography, with translation by O.F. 
 Muller (1783). _Diatom Monographs_, 5, 1-139.
+
+<p align="center">
+  <img width="330" height="261" src="https://user-images.githubusercontent.com/19001437/60072607-a1ee4380-96e3-11e9-9187-77a4c69d8f4a.png"><BR>
+</p>
+  
+[Dr. Thomas Harbich's](https://diatoms.de/en/site-notice) Internet Resource for [Diatoms](https://diatoms.de/en/)
