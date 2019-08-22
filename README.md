@@ -16,7 +16,7 @@ We are working with images from the species _Bacillaria paradoxa_, also known as
 Drawing by Muller (circa 1792) [3]. Click to enlarge.  
 
 ### Description of _Bacillaria_
-Cells are elongated and motile, sliding along each other, in stacked colonies. Cells are rectangular in side view. Two large plate-like chloroplasts are present, one near each end of the cell. The nucleus is located centrally. Cells are yellow-brown in colour. 
+Cells are elongated and motile, sliding along each other, in stacked colonies. Cells are rectangular in side view. Two large plate-like chloroplasts are present, one near each end of the cell. The nucleus is located centrally. Cells are yellow-brown in color [1]. 
 
 <p align="center">
   <img width="210" height="166" src="https://user-images.githubusercontent.com/19001437/58396330-ca661d80-8011-11e9-80fe-e0f9fde60dc1.png"><BR>
