@@ -68,7 +68,7 @@ Muller (1783). _Diatom Monographs_, 5, 1-139.
 
 [4] Gordon, R. (2016). [Partial synchronization of the colonial diatom _Bacillaria paradoxa_](https://riojournal.com/article/7869/). _Research Ideas and Outcomes_, 2, e7869.
 
-[5] 
+[5] Poulsen, N.C., Spector, I., Spurck, T.P., Schultz, T.F., and Wetherbee, R (1999). Diatom gliding is the result of an actin-myosin motility system. Cell Motility and the Cytoskeleton, 44(1), 23-33.
 
 [6] Kapinga, M.R.M. and Gordon, R. (1992). [Cell Motility Rhythms in _Bacillaria Paxillifer_](https://www.tandfonline.com/doi/abs/10.1080/0269249X.1992.9705215). _Diatom Research_, 7(2), 221-225.
 
