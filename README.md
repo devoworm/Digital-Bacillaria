@@ -13,7 +13,7 @@ We are working with images from the species _Bacillaria paradoxa_, also known as
   <img width="160" height="270" src="https://user-images.githubusercontent.com/19001437/58395892-f2ed1800-800f-11e9-9a64-4cd517ea57ac.png"><BR>
 </p>
   
-Drawing by Muller (circa 1792) [3]. Click to enlarge.  
+Figure 1. Drawing by Muller (circa 1792), who was the first to characterize _Bacillaria_ colonies. [3]. Click to enlarge.  
 
 ### Description of _Bacillaria_
 Cells (called filaments) are elongated and motile, sliding along each other, in stacked colonies. Cells are rectangular in side view. Two large plate-like chloroplasts are present, one near each end of the cell. The nucleus is located centrally. Cells are yellow-brown in color [1]. 
@@ -22,7 +22,7 @@ Cells (called filaments) are elongated and motile, sliding along each other, in 
   <img width="210" height="166" src="https://user-images.githubusercontent.com/19001437/58396330-ca661d80-8011-11e9-80fe-e0f9fde60dc1.png"><BR>
 </p>
 
-Examples of _Bacillaria_ colonies and close-up images of single cells using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [4]. Click to enlarge.  
+Figure 2. Examples of _Bacillaria_ colonies and close-up images of single cells using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [4]. Click to enlarge.  
 
 The stacked colony moves by pairs of individual cells sliding against each other. This movement is like an accordian in that the displacement ripples across the extent of the colony and results in large positional changes. This results in cyclic gliding movements resulting from the action of actin filament motors [5]. The primary movement pattern also has a number of interesting properties, including the potential for explosive kinetics resulting from [higher-order derivatives of motion](https://en.wikipedia.org/wiki/Jerk_(physics)#Higher_derivatives).
 
@@ -41,7 +41,7 @@ Additionally, we aim to define five points on each cell:
   <img width="141" height="211" src="https://user-images.githubusercontent.com/19001437/60073556-66a14400-96e6-11e9-913d-188015b3f8f1.jpg"><BR>
 </p>
   
-A diagram showing the five points on a sample cell. Click to enlarge.
+Figure 3. A diagram showing the five points on a sample cell. Click to enlarge.
   
 
 To get more information about what is currently going on, check out the issues and subdirectories of this repository.
@@ -53,7 +53,7 @@ One of our goals is to use the data extracted from microscopy images to better u
   <img width="466" height="414" src="https://user-images.githubusercontent.com/19001437/58767418-47345280-8550-11e9-987c-9e302567e55c.png"><BR>
 </p>
   
-Examples of _Bacillaria_ filament moving through the water column (represented as a flow field). Click to enlarge. 
+Figure 4. Examples of _Bacillaria_ filament moving through the water column (represented as a flow field). Click to enlarge. 
   
 
 ## REFERENCES (numbered in alphabetical order):
