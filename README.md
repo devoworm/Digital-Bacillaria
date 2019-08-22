@@ -22,9 +22,9 @@ Cells (called filaments) are elongated and motile, sliding along each other, in 
   <img width="210" height="166" src="https://user-images.githubusercontent.com/19001437/58396330-ca661d80-8011-11e9-80fe-e0f9fde60dc1.png"><BR>
 </p>
 
-Figure 2. Examples of _Bacillaria_ colonies and close-up images of single cells using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [4]. Click to enlarge.  
+Figure 2. Examples of _Bacillaria_ colonies and close-up images of single cells using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [3]. Click to enlarge.  
 
-The stacked colony moves by pairs of individual cells sliding against each other. This movement is like an accordian in that the displacement ripples across the extent of the colony and results in large positional changes. This results in cyclic gliding movements resulting from the action of actin filament motors [5]. The primary movement pattern also has a number of interesting properties, including the potential for explosive kinetics resulting from [higher-order derivatives of motion](https://en.wikipedia.org/wiki/Jerk_(physics)#Higher_derivatives).
+The stacked colony moves by pairs of individual cells sliding against each other. This synchronized movement [4] is like an accordian in that the displacement ripples across the extent of the colony and results in large positional changes. This results in cyclic gliding movements resulting from the action of actin filament motors [5]. The primary movement pattern also has a number of interesting properties, including the potential for explosive kinetics resulting from [higher-order derivatives of motion](https://en.wikipedia.org/wiki/Jerk_(physics)#Higher_derivatives).
 
 ### Our Goal
 The deliverable here would be to use machine learning techniques to segment individual cells in these movies, and establish the trajectory and orientation of each cell from one movie frame to the next. After that we can create models to define motility of _Bacillaria_.
