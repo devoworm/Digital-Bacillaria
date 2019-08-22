@@ -16,7 +16,7 @@ We are working with images from the species _Bacillaria paradoxa_, also known as
 Drawing by Muller (circa 1792) [3]. Click to enlarge.  
 
 ### Description of _Bacillaria_
-Cells are elongated and motile, sliding along each other, in stacked colonies. Cells are rectangular in side view. Two large plate-like chloroplasts are present, one near each end of the cell. The nucleus is located centrally. Cells are yellow-brown in color [1]. 
+Cells (called filaments) are elongated and motile, sliding along each other, in stacked colonies. Cells are rectangular in side view. Two large plate-like chloroplasts are present, one near each end of the cell. The nucleus is located centrally. Cells are yellow-brown in color [1]. 
 
 <p align="center">
   <img width="210" height="166" src="https://user-images.githubusercontent.com/19001437/58396330-ca661d80-8011-11e9-80fe-e0f9fde60dc1.png"><BR>
@@ -24,7 +24,7 @@ Cells are elongated and motile, sliding along each other, in stacked colonies. C
 
 Examples of _Bacillaria_ colonies and close-up images of single cells using [Scanning Electron Microscopy (SEM)](https://en.wikipedia.org/wiki/Scanning_electron_microscope). Courtesy Figures 27-30 in [4]. Click to enlarge.  
 
-The stacked colony moves by pairs of individual filaments sliding against each other. This movement is like an accordian in that the displacement ripples across the extent of the colony and results in large positional changes. This results in cyclic gliding movements resulting from the action of actin filament motors [5]. The primary movement pattern also has a number of interesting properties, including the potential for explosive kinetics resulting from [higher-order derivatives of motion](https://en.wikipedia.org/wiki/Jerk_(physics)#Higher_derivatives).
+The stacked colony moves by pairs of individual cells sliding against each other. This movement is like an accordian in that the displacement ripples across the extent of the colony and results in large positional changes. This results in cyclic gliding movements resulting from the action of actin filament motors [5]. The primary movement pattern also has a number of interesting properties, including the potential for explosive kinetics resulting from [higher-order derivatives of motion](https://en.wikipedia.org/wiki/Jerk_(physics)#Higher_derivatives).
 
 ### Our Goal
 The deliverable here would be to use machine learning techniques to segment individual cells in these movies, and establish the trajectory and orientation of each cell from one movie frame to the next. After that we can create models to define motility of _Bacillaria_.
@@ -68,7 +68,7 @@ Muller (1783). _Diatom Monographs_, 5, 1-139.
 
 [4] Gordon, R. (2016). [Partial synchronization of the colonial diatom _Bacillaria paradoxa_](https://riojournal.com/article/7869/). _Research Ideas and Outcomes_, 2, e7869.
 
-[5] Poulsen, N.C., Spector, I., Spurck, T.P., Schultz, T.F., and Wetherbee, R (1999). Diatom gliding is the result of an actin-myosin motility system. Cell Motility and the Cytoskeleton, 44(1), 23-33.
+[5] Poulsen, N.C., Spector, I., Spurck, T.P., Schultz, T.F., and Wetherbee, R (1999). [Diatom gliding is the result of an actin-myosin motility system](https://www.ncbi.nlm.nih.gov/pubmed/10470016). _Cell Motility and the Cytoskeleton_, 44(1), 23-33.
 
 [6] Kapinga, M.R.M. and Gordon, R. (1992). [Cell Motility Rhythms in _Bacillaria Paxillifer_](https://www.tandfonline.com/doi/abs/10.1080/0269249X.1992.9705215). _Diatom Research_, 7(2), 221-225.
 
