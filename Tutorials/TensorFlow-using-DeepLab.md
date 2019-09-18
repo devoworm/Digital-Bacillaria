@@ -1,4 +1,4 @@
-## Methodology for TensorFlow Implementation
+## Methodology for TensorFlow Implementation using DeepLabv3
 Ujjwal Singh, Asmit Singh, Bradly Alicea   
 
 ### INTRODUCTION
@@ -102,54 +102,29 @@ Next, define a _create_tf_ function that will eventually convert these csv files
 	   }))
 	   return tf_example
 
-Change this function according to the features you want to define. After this just wrap up your python file by defining main function according to your need, your TensorFlow records are ready. You can find the code of this script in our GitHub repository. After all, this done, we are left with our data, files of XML records, CSV records, and TFrecords. We now need a TFrecord file to do the learning process.
+Change this function according to the features you want to define. After this just wrap up your python file by defining main function according to your need, your TensorFlow records are ready. You can find the code of this script in our GitHub repository. After all, this done, we are left with our data, files of _XML_ records, _CSV_ records, and _TF_ records. We now need a _TF_ record file to do the learning process.
 
+Here, we have two options. We can use a pre-trained model, and then use transfer learning to learn a new object, or we could learn new objects entirely from scratch. The benefit of transfer learning is that training can be much quicker, and the required data that you might need is much less. For this reason, we are going to be doing transfer learning here.
 
+There are few pre-trained models available with the TensorFlow library. An alternative to DeepLabv3 is MobileNet, which is good for beginners and users with limited computational power.
 
-Here,wehavetwooptions.Wecanuseapre-trainedmodel,andthenusetransferlearningto learnanewobject,orwecouldlearnnewobjectsentirelyfromscratch.Thebenefitoftransfer learningisthattrainingcanbemuchquicker,andtherequireddatathatyoumightneedismuch less.Forthisreason,we'regoingtobedoingtransferlearninghere.
-
-Therearefewpre-trainedmodelsavailablewiththeTensorflowlibrary,Weareusingmobilenet forourpurpose.(DeepLabV3+,willbeinnextsheetforahigherlevelofnetworksunderstanding audience,forbeginnersweareusingmobilenets).
-
-Links:-
+### Further Reading  
 
 https://raw.githubusercontent.com/tensorflow/models/master/object_detection/samples/configs/ssd_mobilenet_v1_pets.config
 
-
 http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz
-
 
 Download these files using the _wget_ command on Linux or install manually on Windows. Put _config_ in the training directory, and extract _ssd_mobilenet_v1_ in the _models/object_detection_ directory.
 
+In the configuration file*, you need to search for all of the PATH_TO_BE_CONFIGURED points and change them. You may also want to modify the batch size. In our configuration file, it is set to 36. Other models may have different batch sizes. If you get a memory error, you can try to decrease the batch size to get the model to fit in your VRAM. Finally, you must change the _checkpointname/path_, _num_classesto1_, _num_examplesto12_, and _label_map_path_ to _training/object-detect.pbtxt_.
 
-Intheconfigurationfile*,youneedtosearchforallofthePATH_TO_BE_CONFIGUREDpoints andchangethem.Youmayalsowanttomodifythebatchsize.Currently,itissetto36inour configurationfile.Othermodelsmayhavedifferentbatchsizes.Ifyougetamemoryerror,you cantrytodecreasethebatchsizetogetthemodeltofitinyourVRAM.Finally,youalsoneedto changethecheckpointname/path,num_classesto1,num_examplesto12,and label_map_path:"training/object-detect.pbtxt"
-
-
-Yourstepsstartat1andthelosswillbemuchhigher.DependingonyourGPUandhowmuch trainingdatayouhave,thisprocesswilltakevaryingamountsoftime.Onsomethinglikea
-1080ti,itshouldtakeonlyaboutadayorso.Ifyouhavealotoftrainingdata,itmighttakemuch longer.Youwanttoshootforalossofabout~1onaverage(orlower).Iwouldn'tstoptraining untilyouareforsureunder2.
-
-
-
-
-
-
-
-
-
-
-
+Your steps start at 1 and the loss will be much higher. Depending on your GPU and volume of training data, this process will take varying amounts of time. On a nVidia GeForce 1080ti or similar processor, it should only take about a day or so. If you have a lot of training data, it might take much longer. You want to aim for a loss of well under 2, and ideally about ~1 on average or less. 
 
 
 *Configuration files can be found here
-TESTING OUR MODEL -
 
-
-
-Now,inthemodels/object_detectiondirectory,thereisascriptforus:
-export_inference_graph.py
-
-
-
-Torunthis,youjustneedtopassinyourcheckpointandyourpipelineconfig,thenwhereveryou wanttheinferencegraphtobeplaced.Forexample:
+### TESTING OUR MODEL
+In the _models/object_detection_ directory, there is a Python script called _export_inference_graph.py_. To run this, you just need to pass in your checkpoint and pipeline config, then whatever directory you want the inference graph to be saved. For example:
 
 python3 export_inference_graph.py \
 --input_type image_tensor \
@@ -157,23 +132,13 @@ python3 export_inference_graph.py \
 --trained_checkpoint_prefix training/model.ckpt-10856 \
 --output_directory bacillaria_inference_graph
 
-Yourcheckpointfilesshouldbeinthetrainingdirectory.Next,makesurethe pipeline_config_pathissettowhateverconfigfileyouchose,andthenfinallychoosethe namefortheoutputdirectory,wewentwithbacillaria_inference_graph.
-
-Runtheabovecommandfrommodels/object_detection
-
-Ifyougetanerroraboutno module named 'nets',thenyouneedtore-run:
+Your checkpoint files should be in the training directory. Next, make sure the _pipeline_config_path_ is set to whatever config file you chose, and then finally choose the name for the output directory, we went with _bacillaria_inference_graph_. Run the above command from _models/object_detection_. If you get an error that the module named _nets_ is required, then you need to re-run:
 
 # From tensorflow/models/
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 # switch back to object_detection after this and re-run the above command
 
-
-
-Otherwise,youshouldhaveanewdirectory,inourcaseisbacillaria_inference_graph, insideit,Ihavenewcheckpointdata,asaved_modeldirectory,and,mostimportantly,the forzen_inference_graph.pbfile.
-
-Bootingupjupyternotebookandopeningthebacillaria_detection.ipynb*,let'smakea fewchanges.First,headtotheVariablessection,andlet'schangethemodelname,andthe pathstothecheckpointandthelabels:
-
-
+Otherwise, you should have a new directory, in our case is _bacillaria_inference_graph_, inside this new directory, we find new checkpoint data, a _saved_model_ directory, and the _forzen_inference_graph.pbfile_. This last item is the most important contents of the directory. Booting up Jupyter notebook and opening the _bacillaria_detection.ipynb_ (whch can be found in the Github repo), let us make a few changes. First, head to the Variables section, change the model name as well as the paths to the checkpoint and the labels.
 
 # model to download.
 MODEL_NAME = 'bacillaria_inference_graph'
@@ -183,7 +148,7 @@ MODEL_NAME = 'bacillaria_inference_graph'
 
 # List of the strings that are used to add a correct label for each box.
 PATH_TO_LABELS = os.path.join('training', 'object-detection.pbtxt')
-* can be found in GitHub repo
+
 NUM_CLASSES = 1
 
 Finally,intheDetectionsection,changetheTEST_IMAGE_PATHSvarto:
@@ -197,7 +162,6 @@ Max-highest image number/index
 
 
 Below are a few of our results -
-
 
 This is how you can train your own model, if you get errors or do not get satisfactory results, this might be due to poor annotation or the pre-trained model used in this doesn’t suit your model. Try to look at the annotation again and if still no improvement, try to use other pre-trained models at TensorFlow.
 
