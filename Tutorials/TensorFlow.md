@@ -1,6 +1,7 @@
 ## Methodology for TensorFlow Implementation
 Ujjwal Singh, Asmit Singh, Bradly Alicea   
 
+### INTRODUCTION
 In order to train your model on the deep networks, you will need to do the following:
 
 1. create your Dataset  
@@ -38,10 +39,7 @@ Once you are sorted with your dataset, you need to train your model using this d
 
 Once you have labeled the images with help of a tool, you have noticed that your records are stored in XML format (in most cases, some tools store it directly in the csv format). We need to convert these records from XML formar to csv format, as this will help us in further steps that we encounter later in this part of the chapter.
 
-|aaa
-aaa
-aaa
-aaa|
+|   |
 |---|
 
 
