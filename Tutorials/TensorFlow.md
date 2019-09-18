@@ -4,7 +4,7 @@ Ujjwal Singh, Asmit Singh, Bradly Alicea
 ### INTRODUCTION
 In order to train your model on the deep networks, you will need to do the following:
 
-1. create your Dataset  
+1. create your dataset  
   
 2. train your model  
   
