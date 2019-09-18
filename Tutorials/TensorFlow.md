@@ -30,9 +30,9 @@ For this case, there are several options available -
 There are many image annotation tools available over github developed by different developers, you can use any of them according to your choice.
 
 ### 2. TRAIN YOUR MODEL
-Once you are sorted with your dataset, you need to train your model using this dataset, this is one of the most important part while you are training your dataset on neural networks or any sort of the Deep networks.
+Once you have settled on your input dataset, you need to train your model using this dataset, this is one of the most important part while you are training your dataset on the available varieties of Neural or Deep Learning Networks.
 
-Once you have labeled the images with help of a tool, you have noticed that your records are stored in XML format (in most cases, some tools store it directly in the csv format). We need to convert these records from XML formar to csv format, as this will help us in further steps that we encounter later in this part of the chapter.
+Once you have labeled the images with help of a tool, you have noticed that your records are stored in _XML_ format (in most cases, some tools store it directly in the _csv_ format). We need to convert these records from _XML_ format to _csv_ format, as this will help us in further steps that we encounter later in this tutorial.
 
     def main():
 	      for directory in ['train','test']:
@@ -41,9 +41,9 @@ Once you have labeled the images with help of a tool, you have noticed that your
 		        xml_df.to_csv('data/{}_labels.csv'.format(directory), index=None)
 		        print ('Successfully converted xml to csv.')
 
-This code defines two folders: train and test, and also converts the image output from XML to csv. 
+This code defines two folders: train and test, and also converts the image output from _XML_ to _csv_. 
 
-Now you have csv file for training and testing dataset. Our next would be to generate our TensorFlow records from these csv files. To proceed, you will need to install a few libraries
+Now you have csv file for training and testing dataset. Our next would be to generate our TensorFlow records from these _csv_ files. To proceed, you will need to install a few libraries
 
     from_future_import division
     from_future_import print function
@@ -58,12 +58,7 @@ Now you have csv file for training and testing dataset. Our next would be to gen
     from object_detection.utils import dataset_util
     from collections import namedtuple, OrderedDict
 
-After you have installed all these libraries we can commence with our code.
-
-
-
-First of all define your csv input path, from where this script can pick up the _csv_ files which we have created in the above part, and also define your output path, where you want to save these TensorFlow records which will be created during this script execution.
-After this, you need to define a function which returns a value of "1" whenever _row_label_ matches to your label name. In this context, label is the column name assigned during annotation.
+Now we can create a template. The first step is to define your _csv_ input path, from where this script can pick up the _csv_ files which we have created in the above part, and also define your output path, where you want to save these TensorFlow records which will be created during this script execution. Next, you need to define a function which returns a value of "1" whenever _row_label_ matches to your label name. In this context, label is the column name assigned during annotation.
 
 Next, define a _create_tf_ function that will eventually convert these csv files into TensorFlow records. In this function, you have to extract all the information which is present in the _csv_ file. You can do this by following the below function.
 
