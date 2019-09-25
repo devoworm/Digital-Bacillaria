@@ -1,8 +1,8 @@
-## Methodology for TensorFlow Implementation using DeepLabv3
+## TensorFlow Implementation using Pre-trained Models (MobileNet/DeepNet v3)
 Ujjwal Singh, Asmit Singh, Bradly Alicea   
 
 ### INTRODUCTION
-In order to train your model on the deep networks, you will need to do the following:
+In order to implement a deep network analysis, you will need to do the following:
 
 1. create your dataset  
   
