@@ -106,19 +106,18 @@ Change this function according to the features you want to define. After this ju
 
 Here, we have two options. We can use a pre-trained model, and then use transfer learning to learn a new object, or we could learn new objects entirely from scratch. The benefit of transfer learning is that training can be much quicker, and the required data that you might need is much less. For this reason, we are going to be doing transfer learning here.
 
-There are a number of pre-trained models available within the [TensorFlow library](https://www.tensorflow.org/resources/models-datasets). We recommend either [DeepLabv3](https://towardsdatascience.com/deeplabv3-c5c749322ffa) or [MobileNet](https://ai.googleblog.com/2017/06/mobilenets-open-source-models-for.html). MobileNet is particularly suitable for beginners and users with limited computational power. Below are the files required to run MobileNet.
+### CHOOSING A PRE-TRAINED MODEL
+There are a number of pre-trained models available within the [TensorFlow library](https://github.com/tensorflow/models). We recommend either [DeepLabv3](https://towardsdatascience.com/deeplabv3-c5c749322ffa) or [MobileNet](https://ai.googleblog.com/2017/06/mobilenets-open-source-models-for.html). MobileNet is particularly suitable for beginners and users with limited computational power. Below are the files required to run MobileNet.
 
 Download MobileNet (pre-trained TensorFlow model for object detection)   [tar file link](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz)
   
 Download configuration file for MobileNet   [link](https://raw.githubusercontent.com/tensorflow/models/master/object_detection/samples/configs/ssd_mobilenet_v1_pets.config)
 
-Download manually on Windows or fetch these files using the _wget_ command on Linux. Put _config_ in the training directory, and extract _ssd_mobilenet_v1_ in the _models/object_detection_ directory.
-
-In the configuration file, you need to search for all of the PATH_TO_BE_CONFIGURED points and change them. You may also want to modify the batch size. In our configuration file, it is set to 36. Other models may have different batch sizes. If you get a memory error, you can try to decrease the batch size to get the model to fit in your VRAM. Finally, you must change the _checkpointname/path_, _num_classesto1_, _num_examplesto12_, and _label_map_path_ to _training/object-detect.pbtxt_.
+Download manually on Windows or fetch these files using the _wget_ command on Linux. Put _config_ in the training directory, and extract _ssd_mobilenet_v1_ in the _models/object_detection_ directory. In the configuration file, you need to search for all of the PATH_TO_BE_CONFIGURED points and change them. You may also want to modify the batch size. In our configuration file, it is set to 36. Other models may have different batch sizes. If you get a memory error, you can try to decrease the batch size to get the model to fit in your VRAM. Finally, you must change the _checkpointname/path_, _num_classesto1_, _num_examplesto12_, and _label_map_path_ to _training/object-detect.pbtxt_.
 
 Your steps start at 1 and the loss will be much higher. Depending on your GPU and volume of training data, this process will take varying amounts of time. On a nVidia GeForce 1080ti or similar processor, it should only take about a day or so. If you have a lot of training data, it might take much longer. You want to aim for a loss of well under 2, and ideally about ~1 on average or less. 
 
-### TESTING OUR MODEL
+### TESTING OUR PRE-TRAINED MODEL
 In the _models/object_detection_ directory, there is a Python script called _export_inference_graph.py_. To run this, you just need to pass in your checkpoint and pipeline config, then whatever directory you want the inference graph to be saved. For example:
 
     python3 export_inference_graph.py \
