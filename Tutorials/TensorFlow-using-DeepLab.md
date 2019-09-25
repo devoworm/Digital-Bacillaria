@@ -108,7 +108,7 @@ Here, we have two options. We can use a pre-trained model, and then use transfer
 
 There are few pre-trained models available with the TensorFlow library. An alternative to DeepLabv3 is MobileNet, which is good for beginners and users with limited computational power.
 
-### Further Reading  
+ 
 
 https://raw.githubusercontent.com/tensorflow/models/master/object_detection/samples/configs/ssd_mobilenet_v1_pets.config
 
@@ -116,54 +116,42 @@ http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_
 
 Download these files using the _wget_ command on Linux or install manually on Windows. Put _config_ in the training directory, and extract _ssd_mobilenet_v1_ in the _models/object_detection_ directory.
 
-In the configuration file*, you need to search for all of the PATH_TO_BE_CONFIGURED points and change them. You may also want to modify the batch size. In our configuration file, it is set to 36. Other models may have different batch sizes. If you get a memory error, you can try to decrease the batch size to get the model to fit in your VRAM. Finally, you must change the _checkpointname/path_, _num_classesto1_, _num_examplesto12_, and _label_map_path_ to _training/object-detect.pbtxt_.
+In the configuration file, you need to search for all of the PATH_TO_BE_CONFIGURED points and change them. You may also want to modify the batch size. In our configuration file, it is set to 36. Other models may have different batch sizes. If you get a memory error, you can try to decrease the batch size to get the model to fit in your VRAM. Finally, you must change the _checkpointname/path_, _num_classesto1_, _num_examplesto12_, and _label_map_path_ to _training/object-detect.pbtxt_.
 
 Your steps start at 1 and the loss will be much higher. Depending on your GPU and volume of training data, this process will take varying amounts of time. On a nVidia GeForce 1080ti or similar processor, it should only take about a day or so. If you have a lot of training data, it might take much longer. You want to aim for a loss of well under 2, and ideally about ~1 on average or less. 
-
-
-*Configuration files can be found here
 
 ### TESTING OUR MODEL
 In the _models/object_detection_ directory, there is a Python script called _export_inference_graph.py_. To run this, you just need to pass in your checkpoint and pipeline config, then whatever directory you want the inference graph to be saved. For example:
 
-python3 export_inference_graph.py \
---input_type image_tensor \
---pipeline_config_path training/ssd_mobilenet_v1_pets.config \
---trained_checkpoint_prefix training/model.ckpt-10856 \
---output_directory bacillaria_inference_graph
+    python3 export_inference_graph.py \
+        input_type image_tensor \
+        pipeline_config_path training/ssd_mobilenet_v1_pets.config \
+        trained_checkpoint_prefix training/model.ckpt-10856 \
+        output_directory bacillaria_inference_graph
 
-Your checkpoint files should be in the training directory. Next, make sure the _pipeline_config_path_ is set to whatever config file you chose, and then finally choose the name for the output directory, we went with _bacillaria_inference_graph_. Run the above command from _models/object_detection_. If you get an error that the module named _nets_ is required, then you need to re-run:
+Your checkpoint files should be in the training directory. Next, make sure the _pipeline_config_path_ is set to whatever config file you chose, and then finally choose the name for the output directory, we went with _bacillaria_inference_graph_. Run the above command from _models/object_detection_. If you get an error that the module named _nets_ is required, then you need to re-run _models/object_detection_.
 
-# From tensorflow/models/
-export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
-# switch back to object_detection after this and re-run the above command
+    # From tensorflow/models/
+    export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+    # switch back to object_detection after this and re-run the above command
 
 Otherwise, you should have a new directory, in our case is _bacillaria_inference_graph_, inside this new directory, we find new checkpoint data, a _saved_model_ directory, and the _forzen_inference_graph.pbfile_. This last item is the most important contents of the directory. Booting up Jupyter notebook and opening the _bacillaria_detection.ipynb_ (whch can be found in the Github repo), let us make a few changes. First, head to the Variables section, change the model name as well as the paths to the checkpoint and the labels.
 
-# model to download.
-MODEL_NAME = 'bacillaria_inference_graph'
+    # model to download.
+    MODEL_NAME = 'bacillaria_inference_graph'
+    # Path to frozen detection graph(actual model). PATH_TO_CKPT = MODEL_NAME + '/frozen_inference_graph.pb'
+    # List of the strings that are used to add a correct label for each box.
+    PATH_TO_LABELS = os.path.join('training', 'object-detection.pbtxt')
+    NUM_CLASSES = 1
 
+Finally, in the Detection section, change _TEST_IMAGE_PATHS_ to:
 
-# Path to frozen detection graph(actual model). PATH_TO_CKPT = MODEL_NAME + '/frozen_inference_graph.pb'
+    TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR,
+    'image{}.jpg'.format(i)) for i in range(min, max) ]
+    Min-lowest image number/indes
+    Max-highest image number/index
 
-# List of the strings that are used to add a correct label for each box.
-PATH_TO_LABELS = os.path.join('training', 'object-detection.pbtxt')
-
-NUM_CLASSES = 1
-
-Finally,intheDetectionsection,changetheTEST_IMAGE_PATHSvarto:
-
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR,
-'image{}.jpg'.format(i)) for i in range(min, max) ]
-
-
-Min-lowest image number/indes
-Max-highest image number/index
-
-
-Below are a few of our results -
-
-This is how you can train your own model, if you get errors or do not get satisfactory results, this might be due to poor annotation or the pre-trained model used in this doesn’t suit your model. Try to look at the annotation again and if still no improvement, try to use other pre-trained models at TensorFlow.
+If you get errors or do not get satisfactory results, this might be due to two factors: poor annotation of the source data, or an ill-suited pre-trained model relative to your input data. Look over the annotation for inconsistencies. If this does ot result in an improvement, try to use [other pre-trained models at TensorFlow](https://www.tensorflow.org/resources/models-datasets).
 
 ## REFERENCES:
 [1] Shorten, C. and Khoshgoftaar, T.M. (2019). [A survey on Image Data Augmentation for Deep Learning](https://link.springer.com/article/10.1186/s40537-019-0197-0). _Journal of Big Data_, 6, 60.  
