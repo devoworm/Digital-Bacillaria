@@ -106,15 +106,13 @@ Change this function according to the features you want to define. After this ju
 
 Here, we have two options. We can use a pre-trained model, and then use transfer learning to learn a new object, or we could learn new objects entirely from scratch. The benefit of transfer learning is that training can be much quicker, and the required data that you might need is much less. For this reason, we are going to be doing transfer learning here.
 
-There are few pre-trained models available with the TensorFlow library. An alternative to DeepLabv3 is MobileNet, which is good for beginners and users with limited computational power.
+There are a number of pre-trained models available within the [TensorFlow library](https://www.tensorflow.org/resources/models-datasets). We recommend either [DeepLabv3](https://towardsdatascience.com/deeplabv3-c5c749322ffa) or [MobileNet](https://ai.googleblog.com/2017/06/mobilenets-open-source-models-for.html). MobileNet is particularly suitable for beginners and users with limited computational power. Below are the files required to run MobileNet.
 
- 
+Download MobileNet (pre-trained TensorFlow model for object detection)   [tar file link](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz)
+  
+Download configuration file for MobileNet   [link](https://raw.githubusercontent.com/tensorflow/models/master/object_detection/samples/configs/ssd_mobilenet_v1_pets.config)
 
-https://raw.githubusercontent.com/tensorflow/models/master/object_detection/samples/configs/ssd_mobilenet_v1_pets.config
-
-http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz
-
-Download these files using the _wget_ command on Linux or install manually on Windows. Put _config_ in the training directory, and extract _ssd_mobilenet_v1_ in the _models/object_detection_ directory.
+Download manually on Windows or fetch these files using the _wget_ command on Linux. Put _config_ in the training directory, and extract _ssd_mobilenet_v1_ in the _models/object_detection_ directory.
 
 In the configuration file, you need to search for all of the PATH_TO_BE_CONFIGURED points and change them. You may also want to modify the batch size. In our configuration file, it is set to 36. Other models may have different batch sizes. If you get a memory error, you can try to decrease the batch size to get the model to fit in your VRAM. Finally, you must change the _checkpointname/path_, _num_classesto1_, _num_examplesto12_, and _label_map_path_ to _training/object-detect.pbtxt_.
 
@@ -139,7 +137,8 @@ Otherwise, you should have a new directory, in our case is _bacillaria_inference
 
     # model to download.
     MODEL_NAME = 'bacillaria_inference_graph'
-    # Path to frozen detection graph(actual model). PATH_TO_CKPT = MODEL_NAME + '/frozen_inference_graph.pb'
+    # Path to frozen detection graph(actual model). 
+    PATH_TO_CKPT = MODEL_NAME + '/frozen_inference_graph.pb'  
     # List of the strings that are used to add a correct label for each box.
     PATH_TO_LABELS = os.path.join('training', 'object-detection.pbtxt')
     NUM_CLASSES = 1
