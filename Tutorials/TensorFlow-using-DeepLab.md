@@ -1,5 +1,9 @@
 ## TensorFlow Implementation using Pre-trained Models (MobileNet/DeepNet v3)
-Ujjwal Singh, Asmit Singh, Bradly Alicea   
+Ujjwal Singh<sup>1</sup>, Asmit Singh<sup>1</sup>, Bradly Alicea<sup>2</sup> 
+
+Version 1.0
+
+<sup>1</sup> IIT Delhi, <sup>2</sup> Orthogonal Research and Education Laboratory
 
 ### INTRODUCTION
 In order to implement a deep network analysis, you will need to do the following:
