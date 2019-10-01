@@ -8,11 +8,11 @@ Version 1.0, [CC-BY-SA-4.0 License](https://github.com/devoworm/Licensing-DRM/bl
 ### INTRODUCTION
 In order to implement a deep network analysis, you will need to do the following:
 
-1. create your dataset  
+1. Create your dataset  
   
-2. train your model  
+2. Train your model  
   
-3. test your models  
+3. Test your models  
   
 Creating your data will depend on your domain of interest. You need to have a sizable sample (20-200 images) and perhaps use methods such as data augmentation [1] to improve the performance of your model.
 
@@ -27,9 +27,9 @@ Once your dataset is ready, you have to somehow convert it into a language that 
 
 For this case, there are several options available -
 
-1. unsupervised segmentation of images using Watershed or Canny Edge detection can be found useful in many cases which are general and not too detailed images. In our case, it doesn’t provide us results that we want.  
+1. Unsupervised segmentation of images using Watershed or Canny Edge detection can be found useful in many cases which are general and not too detailed images. In our case, it doesn’t provide us results that we want.  
   
-2. you can also lebel your dataset manually. Manual annotation will allow you to extract information specific to your images. It also helps to create more accurate labels and features for your dataset.  
+2. You can also lebel your dataset manually. Manual annotation will allow you to extract information specific to your images. It also helps to create more accurate labels and features for your dataset.  
   
 There are many image annotation tools available over github developed by different developers, you can use any of them according to your choice.
 
