@@ -31,11 +31,11 @@ The deliverable here would be to use machine learning techniques to segment indi
 
 Additionally, we aim to define five points on each cell:
 
-* the two ends of the cell (1 and 2).
+* The two ends of the cell (1 and 2).
 
-* the midpoint of the line formed between 1 and 2 (3).
+* The midpoint of the line formed between 1 and 2 (3).
 
-* the edges of a cell (4 and 5) defined by drawing a line perpendicular to the axis defined by points 1, 2, and 3.
+* The edges of a cell (4 and 5) defined by drawing a line perpendicular to the axis defined by points 1, 2, and 3.
 
 <p align="center">
   <img width="141" height="211" src="https://user-images.githubusercontent.com/19001437/60073556-66a14400-96e6-11e9-913d-188015b3f8f1.jpg"><BR>
