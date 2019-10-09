@@ -153,7 +153,7 @@ Finally, in the Detection section, change _TEST_IMAGE_PATHS_ to:
     Min-lowest image number/indes
     Max-highest image number/index
 
-If you get errors or do not get satisfactory results, this might be due to two factors: poor annotation of the source data, or an ill-suited pre-trained model relative to your input data. Look over the annotation for inconsistencies. If this does ot result in an improvement, try to use [other pre-trained models at TensorFlow](https://www.tensorflow.org/resources/models-datasets).
+If you get errors or do not get satisfactory results, this might be due to two factors: poor annotation of the source data, or an ill-suited pre-trained model relative to your input data. Look over the annotation for inconsistencies. If this does not result in an improvement, try [other pre-trained models at in the TensorFlow library](https://www.tensorflow.org/resources/models-datasets).
 
 ## REFERENCES:
 [1] Shorten, C. and Khoshgoftaar, T.M. (2019). [A survey on Image Data Augmentation for Deep Learning](https://link.springer.com/article/10.1186/s40537-019-0197-0). _Journal of Big Data_, 6, 60.  
