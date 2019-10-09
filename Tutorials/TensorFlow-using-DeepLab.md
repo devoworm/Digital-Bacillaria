@@ -14,27 +14,27 @@ In order to implement a deep network analysis, you will need to do the following
   
 3. Test your models  
   
-Creating your data will depend on your domain of interest. You need to have a sizable sample (20-200 images) and perhaps use methods such as data augmentation [1] to improve the performance of your model.
+Creating your dataset will depend on your domain of interest. You need to have a sizable sample (20-200 images) and perhaps use methods such as data augmentation [1] to improve the performance of your model.
 
-We will also go through a brief explaination of how to train your model using TensorFlow and Deeplab. You can use many other models as well, these steps are going to the same for almost all the models. Let us discuss the above steps in detail
+We will also go through a brief explaination of how to train your model using TensorFlow and Deeplab. You can use many other models as well, these steps are going to the same for almost all the models. Let us discuss the above steps in detail:
 
 ### 1. MAKE YOUR DATASET
-It is one of the most essential parts to make the dataset, the two things which should be kept in mind is that your dataset must be accurate and should cover a large variety of things related to your model.
+Creating a suitable dataset is the most essential aspect of TensorFlow implementation. You should keep in mind that your dataset must be accurate and should cover a large amount of variation relted to your phenomenon of interest.
 
-In the case of _Bacillaria_ model training, we have first done the microscopy of the worm, then we have split that microscopy into various frames to form our dataset. We have included both dark and light backgrounds to make our dataset more enriched and so that it covers a variety of cases.
+In the case of _Bacillaria_ model training, we have split the microscopy data (movies) into a collection of image files. We have included both dark and light backgrounds to make our dataset more enriched and so that it covers a variety of cases.
 
 Once your dataset is ready, you have to somehow convert it into a language that your machine can understand. It doesn’t know initially what we want from these images.
 
-For this case, there are several options available -
+For this case, there are several options available:
 
-1. Unsupervised segmentation of images using Watershed or Canny Edge detection can be found useful in many cases which are general and not too detailed images. In our case, it doesn’t provide us results that we want.  
+1. Unsupervised segmentation of images using Watershed or Canny Edge detection can be found useful in many cases which are general and not too detailed images. In our case, it does not provide us desirable results.  
   
 2. You can also lebel your dataset manually. Manual annotation will allow you to extract information specific to your images. It also helps to create more accurate labels and features for your dataset.  
   
-There are many image annotation tools available over github developed by different developers, you can use any of them according to your choice.
+There are many image annotation tools available on Github offered by different developers, you can use any of them according to your choice.
 
 ### 2. TRAIN YOUR MODEL
-Once you have settled on your input dataset, you need to train your model using this dataset, this is one of the most important part while you are training your dataset on the available varieties of Neural or Deep Learning Networks.
+Once you have settled on your input dataset, you need to train your model using this dataset. In this case, a trained model is equivalent to a Neural or Deep Learning Network weighted to match the features of your data.
 
 Once you have labeled the images with help of a tool, you have noticed that your records are stored in _XML_ format (in most cases, some tools store it directly in the _csv_ format). We need to convert these records from _XML_ format to _csv_ format, as this will help us in further steps that we encounter later in this tutorial.
 
@@ -47,7 +47,7 @@ Once you have labeled the images with help of a tool, you have noticed that your
 
 This code defines two folders: train and test, and also converts the image output from _XML_ to _csv_. 
 
-Now you have csv file for training and testing dataset. Our next would be to generate our TensorFlow records from these _csv_ files. To proceed, you will need to install a few libraries
+Now you have a csv file for both the training and testing data. Our next step is to generate our TensorFlow records from these _csv_ files. To proceed, you will need to install a few libraries
 
     from_future_import division
     from_future_import print function
@@ -62,9 +62,9 @@ Now you have csv file for training and testing dataset. Our next would be to gen
     from object_detection.utils import dataset_util
     from collections import namedtuple, OrderedDict
 
-Now we can create a template. The first step is to define your _csv_ input path, from where this script can pick up the _csv_ files which we have created in the above part, and also define your output path, where you want to save these TensorFlow records which will be created during this script execution. Next, you need to define a function which returns a value of "1" whenever _row_label_ matches to your label name. In this context, label is the column name assigned during annotation.
+Now we can create a template. The first step is to define your _csv_ input path where this script can pick up the _csv_ files. These are the files which we created in the previous step. You also need to define your output path, or where you want to save the TensorFlow records which will be created during script execution. Then, you need to define a function which returns a value of "1" whenever _row_label_ matches to your label name. In this context, label is the column name assigned during annotation.
 
-Next, define a _create_tf_ function that will eventually convert these csv files into TensorFlow records. In this function, you have to extract all the information which is present in the _csv_ file. You can do this by following the below function.
+Next, define a _create_tf_ function that will eventually convert these csv files into TensorFlow records. For this function, you have to extract all the information which is present in the _csv_ file. You can do this by following the below function.
 
     def create_tf_example(group, path):
 	      with tf.gfile.GFile(os.path.jin(path, '{}'.format(group.filename)), 'rb') as fid:
