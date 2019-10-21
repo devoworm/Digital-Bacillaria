@@ -29,7 +29,7 @@ For this case, there are several options available:
 
 1. Unsupervised segmentation of images using Watershed or Canny Edge detection can be found useful in many cases which are general and not too detailed images. In our case, it does not provide us desirable results.  
   
-2. You can also lebel your dataset manually. Manual annotation will allow you to extract information specific to your images. It also helps to create more accurate labels and features for your dataset.  
+2. You can also label your dataset manually. Manual annotation will allow you to extract information specific to your images. It also helps to create more accurate labels and features for your dataset.  
   
 There are many image annotation tools available on Github offered by different developers, you can use any of them according to your choice.
 
