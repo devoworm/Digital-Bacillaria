@@ -26,8 +26,9 @@ Figure 2. Examples of _Bacillaria_ colonies and close-up images of single cells 
 
 The stacked colony moves by pairs of individual cells sliding against each other. This synchronized movement [4] is like an accordian in that the displacement ripples across the extent of the colony and results in large positional changes. This results in cyclic gliding movements resulting from the action of actin filament motors [5]. The primary movement pattern also has a number of interesting properties, including the potential for explosive kinetics resulting from [higher-order derivatives of motion](https://en.wikipedia.org/wiki/Jerk_(physics)#Higher_derivatives).
 
+
 ### Example of Model-building for Deep Learning
-In this example, we used a mathematical model to define features in a library of microscopy movies, which allowed us to define features for extraction by a pre-trained model (DeepLabv3). From this, we were able to create digital models of _Bacillaria_ cells for further analysis.
+In this example, we used a mathematical model to define features in a library of microscopy movies, which allowed us to define features for [extraction by a pre-trained model (DeepLabv3)](https://github.com/devoworm/Digital-Bacillaria/blob/master/Tutorials/TensorFlow-using-DeepLab.md). From this, we were able to create digital models of _Bacillaria_ cells for further analysis.
 
 This mathematical model used five points on each cell to define a bounding box:
 
@@ -55,6 +56,9 @@ One of our goals is to use the data extracted from microscopy images to better u
   
 Figure 4. Examples of _Bacillaria_ filament moving through the water column (represented as a flow field). Click to enlarge. 
   
+### Current state of the project
+
+To see where we are in this project, please explore this repo or read our [latest publications](https://github.com/devoworm/Digital-Bacillaria/tree/master/Manuscripts). 
 
 ## REFERENCES (numbered in alphabetical order):
 [1] Sabater, S. (2009). [Diatoms](https://www.sciencedirect.com/science/article/pii/B9780123706263001356). _Encyclopedia of Inland Waters_, 149-156. doi:10.1016/B978-012370626-3.00135-6
