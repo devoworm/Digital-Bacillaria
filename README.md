@@ -58,7 +58,7 @@ Figure 4. Examples of _Bacillaria_ filament moving through the water column (rep
   
 ### Current state of the project
 
-To see where we are in this project, please explore this repo, read our [latest publications](https://github.com/devoworm/Digital-Bacillaria/tree/master/Manuscripts), or check out our [collection of open datasets (https://github.com/devoworm/Digital-Bacillaria/tree/master/Public%20Data)]. 
+To see where we are in this project, please explore this repo, read our [latest publications](https://github.com/devoworm/Digital-Bacillaria/tree/master/Manuscripts), or check out our [collection of open datasets](https://github.com/devoworm/Digital-Bacillaria/tree/master/Public%20Data). 
 
 ## REFERENCES (numbered in alphabetical order):
 [1] Sabater, S. (2009). [Diatoms](https://www.sciencedirect.com/science/article/pii/B9780123706263001356). _Encyclopedia of Inland Waters_, 149-156. doi:10.1016/B978-012370626-3.00135-6
