@@ -26,10 +26,10 @@ Figure 2. Examples of _Bacillaria_ colonies and close-up images of single cells 
 
 The stacked colony moves by pairs of individual cells sliding against each other. This synchronized movement [4] is like an accordian in that the displacement ripples across the extent of the colony and results in large positional changes. This results in cyclic gliding movements resulting from the action of actin filament motors [5]. The primary movement pattern also has a number of interesting properties, including the potential for explosive kinetics resulting from [higher-order derivatives of motion](https://en.wikipedia.org/wiki/Jerk_(physics)#Higher_derivatives).
 
-### Our Goal
-The deliverable here would be to use machine learning techniques to segment individual cells in these movies, and establish the trajectory and orientation of each cell from one movie frame to the next. After that we can create models to define motility of _Bacillaria_.
+### Example of Model-building for Deep Learning
+In this example, we used a mathematical model to define features in a library of microscopy movies, which allowed us to define features for extraction by a pre-trained model (DeepLabv3). From this, we were able to create digital models of _Bacillaria_ cells for further analysis.
 
-Additionally, we aim to define five points on each cell:
+This mathematical model used five points on each cell to define a bounding box:
 
 * The two ends of the cell (1 and 2).
 
