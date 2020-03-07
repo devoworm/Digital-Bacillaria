@@ -1,10 +1,10 @@
-Bacillaria Psychophyics: the information processing of collective movement.
+### Bacillaria Psychophysics: the information processing of collective movement.
 
-Introduction
+#### Introduction
 While the diatom Bacillaria does not have a nervous system, it does exhibit organized behaviors and collective movement. Bacillaria consists of a series of filaments arrayed in parallel. 
 
 
-Models of Movement
+#### Models of Movement
 Evaluate a series of models that explain movement (pick from the 20 or so models that Dick presented from his new paper).  
 
 physical models, molecular models, functional models (review several different models and their plausibility).
@@ -14,7 +14,7 @@ All act as a driver of behavior: movement through the water column. Consists of 
 Hypothesis: movement of the Bacillaria colony is driven by information processing, which is neuronal in scope. 
 
 
-Neuronal regulation:
+#### Neuronal regulation:
 
 Hebbian learning (elements that wire together, fire together).
 
