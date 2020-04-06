@@ -2,6 +2,19 @@ Central Pattern Generators (CPGs) generate oscillations from a small neural circ
 
 In _Bacillaria_, we observe collective pattern generators (also CPGs?), which are generated from collective and coordinated behavior. No central nervous system or brain is involved.  
 
+Bacillaria brain looks like the following:
+
+* no spatial representation (free-moving).
+
+* movement as the seat of intelligence.
+
+* produces a set of sine waves, one for each pair of filaments.
+
+* the entire chain produces an oscillator with harmonics (delayed by _n_ degrees out-of-phase).  
+
+* potentially we may see spindles at the extremes of each cycle.
+
+
 References:  
 Hanczyc and Ikegami, Chemical Basis for Minimal Cognition, _Artificial Life_, 16: 233–243 (2010).  
 
