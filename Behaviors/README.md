@@ -12,7 +12,13 @@ _Bacillaria_ brain looks like the following:
 
 * the entire chain produces an oscillator with harmonics (delayed by _n_ degrees out-of-phase).  
 
-* potentially we may see spindles at the extremes of each cycle.
+* potentially we may see spindles at the extremes of each cycle (pauses in oscillation or changes in orientation).
+
+How to model:
+
+* model sine waves, sinusoidals, and step functions.
+
+* how do these map measurements in the previous Bacillaria paper?
 
 Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory units overlap, so that a colony of 7 filaments consist of 6 oscillatory units. While they generally produce a sine wave, they can also stretch to a maximal value and stay there for long periods of time.
 
