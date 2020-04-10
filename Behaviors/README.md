@@ -1,6 +1,6 @@
 Central Pattern Generators (CPGs) generate oscillations from a small neural circuit (pacemaker neurons).  
 
-In _Bacillaria_, we observe collective pattern generators (also CPGs?), which are generated from collective and coordinated behavior. No central nervous system or brain is involved.  
+In _Bacillaria_, we observe collective pattern generators (CoPGs?), which are generated from collective and coordinated behavior. No central nervous system or brain is involved.  
 
 Bacillaria brain looks like the following:
 
@@ -13,6 +13,10 @@ Bacillaria brain looks like the following:
 * the entire chain produces an oscillator with harmonics (delayed by _n_ degrees out-of-phase).  
 
 * potentially we may see spindles at the extremes of each cycle.
+
+Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory units overlap, so that a colony of 7 filaments consist of 6 oscillatory units. While they generally produce a sine wave, they can also stretch to a maximal value and stay there for long periods of time.
+
+* modeling modes of movement behavior from microscopy data.
 
 
 References:  
