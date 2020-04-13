@@ -1,4 +1,4 @@
-Central Pattern Generators (CPGs) generate oscillations from a small neural circuit (pacemaker neurons).  
+Central Pattern Generators (CPGs) generate oscillations from a small neural circuit (pacemaker neurons). In neuronal systems, CPGs generate oscillations from a small neural circuit (pacemaker neurons).
 
 In _Bacillaria_, we observe collective pattern generators (CoPGs?), which are generated from collective and coordinated behavior. No central nervous system or brain is involved.  
 
@@ -24,10 +24,12 @@ Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory
 
 * modeling modes of movement behavior from microscopy data.
 
-_References_:  
-Hanczyc and Ikegami, Chemical Basis for Minimal Cognition, _Artificial Life_, 16: 233–243 (2010).  
-
+__References__:  
 Arshavsky, Cellular and network properties in the functioning of the nervous system: from central pattern generators to cognition. _Brain Research Reviews_, 41(2–3), 229-267 (2003).  
+
+Graziano, The Intelligent Movement Machine. An Ethological Perspective on the Primate Motor System. Oxford University Press Oxford, UK (2009).  
+
+Hanczyc and Ikegami, Chemical Basis for Minimal Cognition, _Artificial Life_, 16: 233–243 (2010).  
 
 Marder and Bucher, Central pattern generators and the control of rhythmic movements. _Current Biology_, 11(23), R986-R996 (2011).  
 
