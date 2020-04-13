@@ -47,6 +47,7 @@ y = cat(2,y2,y1);
 plot(x)  
 plot(y)  
 
+[[tangent-at-positive-1.png]] 
 
 n = length(x); // where n = 629.  
 m = n * 0.50 // half phase resampling (180% out of phase).  
@@ -66,3 +67,5 @@ y2 = x(:,1:n);
 y = cat(2,y2,y1);  
 plot(x)  
 plot(y)  
+
+[[tangent-at-negative-1.png]] 
