@@ -8,7 +8,7 @@ x = sin([0:0.01:2*8*%pi]); // 8 cycles of a sine wave.
 in general, 0:0.01:n is equivalent to n/2*%pi. // restatement of Nyquist theorem.  
 
 n = length(x); // where n = 629.  
-m = n * 0.75 // three-quarter phase resampling (90% out of phase).  
+m = n * 0.75 // three-quarter phase resampling (90 degrees out of phase).  
 y1 = x(:,n+1:m);  
 y2 = x(:,1:n);   
 y = cat(2,y1,y2);  
@@ -18,7 +18,7 @@ plot(y)
 [[out-of-phase-quarter-phase-75.png]]  
 
 n = length(x); // where n = 629.  
-m = n * 0.50 // half phase resampling (180% out of phase).  
+m = n * 0.50 // half-phase resampling (180 degrees out of phase).  
 y1 = x(:,n+1:m);  
 y2 = x(:,1:n);   
 y = cat(2,y1,y2);  
@@ -27,7 +27,7 @@ plot(y)
 
 
 n = length(x); // where n = 629.  
-m = n * 0.25 // three-quarter phase resampling (90% out of phase).  
+m = n * 0.25 // one-quarter phase resampling (90 degrees out of phase).  
 y1 = x(:,n+1:m);  
 y2 = x(:,1:n);   
 y = cat(2,y1,y2);  
@@ -39,7 +39,7 @@ plot(y)
 #### Extension of cell pair (tangent from an oscillation)
 
 n = length(x); // where n = 629.  
-m = n * 0.75 // three-quarter phase resampling (90% out of phase).  
+m = find(x > 0.999999); // three-quarter phase resampling (90 degrees out of phase). Output should be value for array value (1:158).
 y11 = n-m+1;  
 y1 = ones(1,y11);  
 y2 = x(:,1:n);   
@@ -50,7 +50,7 @@ plot(y)
 [[tangent-at-positive-1.png]] 
 
 n = length(x); // where n = 629.  
-m = n * 0.50 // half phase resampling (180% out of phase).  
+m = find(x == 0); // half-phase resampling (180 degrees out of phase).  
 y11 = n-m+1;  
 y1 = ones(1,y11);  
 y2 = x(:,1:n);   
@@ -60,7 +60,7 @@ plot(y)
 
 
 n = length(x); // where n = 629.  
-m = n * 0.25 // three-quarter phase resampling (90% out of phase).  
+m = find(x , -0.99999); // one-quarter phase resampling (90 degrees out of phase). Output should be value for array value (1:472).
 y11 = n-m+1;  
 y1 = ones(1,y11);  
 y2 = x(:,1:n);   
