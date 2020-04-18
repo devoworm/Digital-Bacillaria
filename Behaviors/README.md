@@ -16,13 +16,38 @@ _Bacillaria_ brain looks like the following:
 
 How to model:
 
-* model sine waves, sinusoidals, and step functions.
+* model sine waves, sinusoidals, and hybrid sinusoidal-tangent functions.
 
 * how do these map measurements in the previous Bacillaria paper?
 
 Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory units overlap, so that a colony of 7 filaments consist of 6 oscillatory units. While they generally produce a sine wave, they can also stretch to a maximal value and stay there for long periods of time.
 
 * modeling modes of movement behavior from microscopy data.
+
+<p align="center">
+  <img width="256" height="227" src="https://user-images.githubusercontent.com/19001437/53650847-1835da00-3c0b-11e9-9a3c-71c2eea8c3da.gif"><BR>
+  Pure sine wave
+</p>
+<p align="center">
+  <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/tangent-at-positive-1.png"><BR>
+  Sine wave with tangent at quarter-phase
+</p>
+<p align="center">
+  <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/tangent-at-negative-1.png"><BR>
+  Sine wave with tangent at three-quarter phase
+</p>
+<p align="center">
+  <img width="256" height="227" src="https://user-images.githubusercontent.com/19001437/53650847-1835da00-3c0b-11e9-9a3c-71c2eea8c3da.gif"><BR>
+  Sine waves (anti-phase)
+</p>
+<p align="center">
+  <img width="256" height="227" src="https://user-images.githubusercontent.com/19001437/53650847-1835da00-3c0b-11e9-9a3c-71c2eea8c3da.gif"><BR>
+  Sine waves (quarter-phase)
+</p>
+<p align="center">
+  <img width="256" height="227" src="https://user-images.githubusercontent.com/19001437/53650847-1835da00-3c0b-11e9-9a3c-71c2eea8c3da.gif"><BR>
+  Attractor map (based on quarter-phase)
+</p>
 
 __References__:  
 Arshavsky, Cellular and network properties in the functioning of the nervous system: from central pattern generators to cognition. _Brain Research Reviews_, 41(2–3), 229-267 (2003).  
