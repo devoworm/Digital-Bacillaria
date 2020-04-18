@@ -29,7 +29,7 @@ Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory
   Sine wave with tangent at quarter-phase
 </p>
 <p align="center">
-  <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/tangent-at-negative-1.png"><BR>
+  <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/tangent-at-negative-1.png"><BR>
   Sine wave with tangent at three-quarter phase
 </p>
 <p align="center">
@@ -37,19 +37,19 @@ Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory
   Sine waves (anti-phase)
 </p>
 <p align="center">
-  <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/out-of-phase-quarter-phase-25.png"><BR>
+  <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/out-of-phase-quarter-phase-25.png"><BR>
   Two adjacent and overlapping pairs of oscillatory cell movments (sine waves, quarter-phase)
 </p>
 <p align="center">
-  <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/out-of-phase-quarter-phase-75.png"><BR>
+  <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/out-of-phase-quarter-phase-75.png"><BR>
   Two adjacent and overlapping pairs of oscillatory cell movments (sine waves, three-quarter phase)
 </p>
 <p align="center">
-  <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/attractor-90-degrees-out-of-phase.png"><BR>
+  <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/attractor-90-degrees-out-of-phase.png"><BR>
   Attractor map (based on sine waves, quarter-phase)
 </p>
 
-__References__:  
+__References__  
 Arshavsky, Cellular and network properties in the functioning of the nervous system: from central pattern generators to cognition. _Brain Research Reviews_, 41(2–3), 229-267 (2003).  
 
 Graziano, The Intelligent Movement Machine. An Ethological Perspective on the Primate Motor System. Oxford University Press Oxford, UK (2009).  
