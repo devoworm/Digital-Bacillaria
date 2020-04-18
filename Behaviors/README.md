@@ -25,7 +25,7 @@ Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory
 * modeling modes of movement behavior from microscopy data.
 
 <p align="center">
-  <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/tangent-at-positive-1.png"><BR>
+  <img width=455 height= 361 src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/tangent-at-positive-1.png"><BR>
   Sine wave with tangent at quarter-phase
 </p>
 <p align="center">
