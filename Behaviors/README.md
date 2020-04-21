@@ -1,7 +1,9 @@
+#### Main Idea:
 Central Pattern Generators (CPGs) generate oscillations from a small neural circuit (pacemaker neurons). In neuronal systems, CPGs generate oscillations from a small neural circuit (pacemaker neurons).
 
 In _Bacillaria_, we observe collective pattern generators (CoPGs?), which are generated from collective and coordinated behavior. No central nervous system or brain is involved.  
 
+#### Aneural Architecture
 _Bacillaria_ brain looks like the following:
 
 * no spatial representation (free-moving), but does exhibit limited goal-directed behavior.
@@ -14,7 +16,7 @@ _Bacillaria_ brain looks like the following:
 
 * potentially we may see spindles at the extremes of each cycle (pauses in oscillation or changes in orientation).
 
-How to model:
+#### How to model:
 
 * model sine waves, sinusoidals, and hybrid sinusoidal-tangent functions.
 
@@ -23,6 +25,8 @@ How to model:
 Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory units overlap, so that a colony of 7 filaments consist of 6 oscillatory units. While they generally produce a sine wave, they can also stretch to a maximal value and stay there for long periods of time.
 
 * modeling modes of movement behavior from microscopy data.
+
+#### Simulation: 
 
 <p align="center">
   <img width=455 height= 361 src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/tangent-at-positive-1.png"><BR>
@@ -48,6 +52,9 @@ Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory
   <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/attractor-90-degrees-out-of-phase.png"><BR>
   Attractor map (based on sine waves, quarter-phase)
 </p>
+  
+#### Analysis
+Using methods derived to analyze CPGs, we can use at least three types of technique: [bifurcation analysis](http://www.scholarpedia.org/article/Bifurcation), a simple [return map](https://www.vanderbilt.edu/AnS/psychology/cogsci/chaos/workshop/Tools.html), and a [Poincare maps](https://en.wikipedia.org/wiki/Poincar%C3%A9_map). A [recurrence map](https://en.wikipedia.org/wiki/Recurrence_plot) can be used in lieu of a Poincare map.
 
 __References__  
 Arshavsky, Cellular and network properties in the functioning of the nervous system: from central pattern generators to cognition. _Brain Research Reviews_, 41(2–3), 229-267 (2003).  
