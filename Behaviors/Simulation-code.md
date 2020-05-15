@@ -77,3 +77,5 @@ x = sin([0:0.01:2*%pi]);
 z = rand(1:629);
 zz = x .* z;
 plot(zz)
+
+[[noisy-sine-wave-sample.png]]
