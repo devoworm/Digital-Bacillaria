@@ -48,6 +48,10 @@ Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory
   <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/attractor-90-degrees-out-of-phase.png"><BR>
   Attractor map (based on sine waves, quarter-phase)
 </p>
+<p align="center">
+  <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/ noisy-sine-wave-sample.png"><BR>
+  Sine wave with random (white) noise
+</p>
   
 #### Analysis
 Using methods derived to analyze CPGs, we can use at least three types of technique: [bifurcation analysis](http://www.scholarpedia.org/article/Bifurcation), a simple [return map](https://www.vanderbilt.edu/AnS/psychology/cogsci/chaos/workshop/Tools.html), and a [Poincare maps](https://en.wikipedia.org/wiki/Poincar%C3%A9_map). A [recurrence map](https://en.wikipedia.org/wiki/Recurrence_plot) can be used in lieu of a Poincare map.
