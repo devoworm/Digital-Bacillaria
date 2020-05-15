@@ -69,3 +69,11 @@ plot(x)
 plot(y)  
 
 [[tangent-at-negative-1.png]] 
+
+#### Simulating a noisy sine wave cycle
+
+rand('seed',0); // reseed with different number every run
+x = sin([0:0.01:2*%pi]);
+z = rand(1:629);
+zz = x .* z;
+plot(zz)
