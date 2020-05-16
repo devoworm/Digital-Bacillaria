@@ -49,12 +49,21 @@ Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory
   Attractor map (based on sine waves, quarter-phase)
 </p>
 <p align="center">
-  <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/ noisy-sine-wave-sample.png"><BR>
+  <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/noisy-sine-wave-sample.png"><BR>
   Sine wave with random (white) noise
 </p>
   
 #### Analysis
 Using methods derived to analyze CPGs, we can use at least three types of technique: [bifurcation analysis](http://www.scholarpedia.org/article/Bifurcation), a simple [return map](https://www.vanderbilt.edu/AnS/psychology/cogsci/chaos/workshop/Tools.html), and a [Poincare maps](https://en.wikipedia.org/wiki/Poincar%C3%A9_map). A [recurrence map](https://en.wikipedia.org/wiki/Recurrence_plot) can be used in lieu of a Poincare map.
+
+#### Discussion.
+Does a simple oscillator provide a means for intelligent behavior? An oscillator provides a deterministic signal that entrains behavior, but does not allow for computation nor information content. 
+
+* in terms of computation, stretching resembles a Turing machine, where stretching can resemble "halting" behaviors.
+
+* in terms of information content, stopping and stretching allows for symmetry breaking, and thus information. 
+
+* more complex behaviors are not currently known.
 
 __References__  
 Arshavsky, Cellular and network properties in the functioning of the nervous system: from central pattern generators to cognition. _Brain Research Reviews_, 41(2–3), 229-267 (2003).  
