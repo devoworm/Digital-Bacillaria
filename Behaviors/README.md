@@ -56,6 +56,12 @@ Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory
 #### Analysis
 Using methods derived to analyze CPGs, we can use at least three types of technique: [bifurcation analysis](http://www.scholarpedia.org/article/Bifurcation), a simple [return map](https://www.vanderbilt.edu/AnS/psychology/cogsci/chaos/workshop/Tools.html), and a [Poincare maps](https://en.wikipedia.org/wiki/Poincar%C3%A9_map). A [recurrence map](https://en.wikipedia.org/wiki/Recurrence_plot) can be used in lieu of a Poincare map.
 
+In terms of a state transition from oscillator to stretched out, do we observe halting behavior? Can this be controlled by the colony, or is this a random behavior?
+
+We can use algorithmic information theory ([Chaitin's constant](https://en.wikipedia.org/wiki/Chaitin%27s_constant)) to approximate the random nature of this behavior. If this is random, then the CoPG can be relaxed due to exogenous forces (aging, hydrodynamics). If it is not random, then there is some endogenous control.
+
+* simulate a range of stopping times (colony oscillates for _n_ cycles, then halts). Is there a way to assume physical constraints? Energy function?
+
 #### Discussion.
 Does a simple oscillator provide a means for intelligent behavior? An oscillator provides a deterministic signal that entrains behavior, but does not allow for computation nor information content. 
 
