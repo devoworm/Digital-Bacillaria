@@ -60,12 +60,12 @@ In terms of a state transition from oscillator to stretched out, do we observe h
 
 We can use algorithmic information theory ([Chaitin's constant](https://en.wikipedia.org/wiki/Chaitin%27s_constant)) to approximate the random nature of this behavior. If this is random, then the CoPG can be relaxed due to exogenous forces (aging, hydrodynamics). If it is not random, then there is some endogenous control.
 
-* simulate a range of stopping times (colony oscillates for _n_ cycles, then halts). Is there a way to assume physical constraints? Energy function?
+* simulate a range of stopping times (colony oscillates for _n_ cycles, then halts). Use noise inputs to model physical contraints (reach a noise threshold, CoPG "relaxes" and thus halts.
 
 #### Discussion.
 Does a simple oscillator provide a means for intelligent behavior? An oscillator provides a deterministic signal that entrains behavior, but does not allow for computation nor information content. 
 
-* in terms of computation, stretching resembles a Turing machine, where stretching can resemble "halting" behaviors.
+* in terms of computation, stretching resembles a Turing machine, where stretching can resemble "halting" behaviors. Discuss CoPG relaxing conditions -- due to decoupling of neighbors, self-reinforcing dampening.
 
 * in terms of information content, stopping and stretching allows for symmetry breaking, and thus information. 
 
