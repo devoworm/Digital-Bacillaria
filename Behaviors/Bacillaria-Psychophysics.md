@@ -37,7 +37,7 @@ specifically, neuronal behavior from non-neuronal systems. Similar in principle 
 Examples: Fake Life Recognition Contest (Alife 2019), Simulated vs. real movement in Geppetto vs. _C. elegans_.
 
 <p align="center">
-  <img src=""><BR>
+  <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/table-neuronal-vs-non-neuronal.png"><BR>
 </p>
 
 
