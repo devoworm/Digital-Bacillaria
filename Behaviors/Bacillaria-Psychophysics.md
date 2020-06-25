@@ -22,9 +22,7 @@ Hebbian learning (elements that wire together, fire together).
 
 each filament in the colony exhibits sliding motion. This sliding motion is coupled by neighboring filaments. 
 
-results in a rhythmic oscillation that occurs at multiple timescales (similar to a central pattern generator).
-
-Entrainment over time (synchronization of filaments).
+Entrainment over time (synchronization of filaments)?
 
 __Hypothesis 2:__
 
