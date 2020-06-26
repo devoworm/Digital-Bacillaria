@@ -20,7 +20,8 @@ __Hypothesis 1:__
 
 Hebbian learning (elements that wire together, fire together).
 
-each filament in the colony exhibits sliding motion. This sliding motion is coupled by neighboring filaments. 
+
+To address Hypothesis #1, we will employ a version of Hebbian learning where the site of action is filament coupling sites rather than synapses. Hebbian learning can be summarized as "cells that wire together, fire together" [7]. In our case, filaments (or cells) that are adjoint also provide each other with a learning signal. This learning signal provides the basis for a coordinated, sliding motion. Once a pair of filaments learn each other's movements, their independent phase oscillations become _entrained_ to each other [8].
 
 Entrainment over time (synchronization of filaments)?
 
@@ -45,6 +46,12 @@ Examples: Fake Life Recognition Contest (Alife 2019), Simulated vs. real movemen
 
 [3] Vogel, D. and Dussutour, A. (2016). Direct transfer of learned behaviour via cell fusion in non-neural organisms. _Proceedings of the Royal Society B_, 28320162382.
 
-[4] Cohn, S.A. (2001). Photo-stimulated effects on diatom motility. _Comprehensive Series in Photosciences_, 1, 375-401.
+[4] 
 
-[5] Reina, A., Bose, T., Trianni, V., and Marshall, J.A.R. (2018). Psychophysical Laws and the Superorganism. _Scientific Reports_, 8, 4387.
+[5] Cohn, S.A. (2001). Photo-stimulated effects on diatom motility. _Comprehensive Series in Photosciences_, 1, 375-401.
+
+[6] Reina, A., Bose, T., Trianni, V., and Marshall, J.A.R. (2018). Psychophysical Laws and the Superorganism. _Scientific Reports_, 8, 4387.
+
+[7] Hebbian Learning review
+
+[8] du Bois, N. and Elliott, M.A. (2017). The temporal dynamics involved in object representation updating to predict change. _Progress in Brain Research_, 236, 269-285.
