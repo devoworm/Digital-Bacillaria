@@ -19,7 +19,7 @@ A key assumption in this paper is that whatever drives the behavior does so in a
 Many coordinated collective behaviors can result from the tuning of physical parameters, which has been demonstrated in agent-based models that are analogous to organisms such as the water flea (Daphnia) [7].
 
 __Hypothesis 1:__
-To address Hypothesis #1, we will employ a version of Hebbian learning where the site of action is filament coupling sites rather than synapses. Hebbian learning can be summarized as "cells that wire together, fire together" [8]. In our case, filaments (or cells) that are adjoint also provide each other with a learning signal. This learning signal provides the basis for a coordinated, sliding motion. Once a pair of filaments learn each other's movements, their independent phase oscillations become _entrained_ to each other [9]. While this seems to happen as a result of mechanical constraints with the onset of movement generation, we ask a more fundamental question: how does this behavior become organized in the development of a _Bacillaria_ colony?
+To address Hypothesis #1, we will employ a version of Hebbian learning where the site of action is filament coupling sites rather than synapses. Hebbian learning can be summarized as "cells that wire together, fire together" [8]. In our case, filaments (or cells) that are adjoint also provide each other with a learning signal. This learning signal provides the basis for a coordinated, sliding motion. Once a pair of filaments learn each other's movements, their independent phase oscillations become _entrained_ to each other [9]. While this seems to happen as a result of mechanical constraints with the onset of movement generation, we ask a more fundamental question: how does this behavior become organized in the development of a _Bacillaria_ colony? The answer is through a form of differential Hebbian learning [x]. Differential Hebbian learning is concerned with the temporal difference between activation and response rather than the causality of the activation itself.
 
 
 __Hypothesis 2:__
@@ -47,8 +47,11 @@ Table 1 demonstrates how autonomy can be partitioned into real and simulated com
 
 [7] Mach, R. and Schweitzer, F. (2007). Modeling Vortex Swarming in _Daphnia_. _Bulletin of Mathematical Biology_, 69(2), 539-562. doi:10.1007/s11538-006-9135-3.
 
-[8] Hebbian Learning review
+[8] Hebb, D.O. (1949). The Organization of Behavior. New York: Wiley & Sons.
 
 [9] du Bois, N. and Elliott, M.A. (2017). The temporal dynamics involved in object representation updating to predict change. _Progress in Brain Research_, 236, 269-285.
 
 [10] Witkowski, O. and Sinapayen, L. (2020). Fake Life Recognition Contest. _Github_, https://github.com/LanaSina/FLR_contest/blob/master/Readme.md
+
+
+[x] Cocchi, L., Gollo, L.L., Zalesky, A., Breakspear, M. (2017). Criticality in the Brain: A Synthesis of Neurobiology, Models and Cognition. _Progress in Neurobiolology_, 158, 132-152. doi:10.1016/j.pneurobio.2017.07.002.
