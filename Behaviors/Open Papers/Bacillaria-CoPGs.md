@@ -26,6 +26,12 @@ Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory
 
 * modeling modes of movement behavior from microscopy data.
 
+#### CPGs in a stick insect: synergistic CPGs
+
+Paper: Daun et.al (2019). [Unravelling intra- and intersegmental neuronal connectivity between central pattern generating networks in a multi-legged locomotor system](https://pubmed.ncbi.nlm.nih.gov/31386699/). _PLoS One_, 14(8), e0220767.
+
+Dataset: [Figshare](https://figshare.com/articles/Data_from_Unravelling_intra-_and_intersegmental_neuronal_connectivity_between_central_pattern_generating_networks_in_a_multi-legged_locomotor_system/7831772/1)
+
 #### Simulation: 
 
 <p align="center">
