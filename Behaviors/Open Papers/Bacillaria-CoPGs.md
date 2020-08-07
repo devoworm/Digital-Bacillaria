@@ -3,7 +3,7 @@
 #### Main Idea:
 Central Pattern Generators (CPGs) generate oscillations from a small neural circuit (pacemaker neurons). In neuronal systems, CPGs generate oscillations from a small neural circuit (pacemaker neurons).
 
-In _Bacillaria_, we observe collective pattern generators (CoPGs), which are generated from collective and coordinated behavior. No central nervous system or brain is involved.  
+In _Bacillaria_, we observe collective pattern generators (CoPGs), which are generated from collective and coordinated behavior. No central nervous system or brain is involved. 
 
 #### Aneural Architecture
 _Bacillaria_ behavior-generation system looks like the following:
