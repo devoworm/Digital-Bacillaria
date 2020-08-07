@@ -6,7 +6,7 @@ Central Pattern Generators (CPGs) generate oscillations from a small neural circ
 In _Bacillaria_, we observe collective pattern generators (CoPGs), which are generated from collective and coordinated behavior. No central nervous system or brain is involved.  
 
 #### Aneural Architecture
-_Bacillaria_ brain looks like the following:
+_Bacillaria_ behavior-generation system looks like the following:
 
 * no spatial representation (free-moving), but does exhibit limited goal-directed behavior.
 
