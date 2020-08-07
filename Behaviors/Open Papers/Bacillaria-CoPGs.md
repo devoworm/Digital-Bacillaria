@@ -1,7 +1,9 @@
+## Collective Pattern Generators: behavioral signatures of environmental interactions
+
 #### Main Idea:
 Central Pattern Generators (CPGs) generate oscillations from a small neural circuit (pacemaker neurons). In neuronal systems, CPGs generate oscillations from a small neural circuit (pacemaker neurons).
 
-In _Bacillaria_, we observe collective pattern generators (CoPGs?), which are generated from collective and coordinated behavior. No central nervous system or brain is involved.  
+In _Bacillaria_, we observe collective pattern generators (CoPGs), which are generated from collective and coordinated behavior. No central nervous system or brain is involved.  
 
 #### Aneural Architecture
 _Bacillaria_ brain looks like the following:
@@ -31,6 +33,8 @@ Each pair of filamentous cells act as an oscillatory unit in a CoPG. Oscillatory
 Paper: Daun et.al (2019). [Unravelling intra- and intersegmental neuronal connectivity between central pattern generating networks in a multi-legged locomotor system](https://pubmed.ncbi.nlm.nih.gov/31386699/). _PLoS One_, 14(8), e0220767.
 
 Dataset: [Figshare](https://figshare.com/articles/Data_from_Unravelling_intra-_and_intersegmental_neuronal_connectivity_between_central_pattern_generating_networks_in_a_multi-legged_locomotor_system/7831772/1)
+
+Figure showing integration of multiple legs.
 
 #### Simulation: 
 
