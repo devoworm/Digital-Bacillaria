@@ -28,6 +28,8 @@ Table 1. A demonstration of how autonomy can be partitioned into generated and o
   <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/table-of-behaviors.png"><BR>
 </p>
   
+### Psychophysical behaviors produced by a non-neuronal system
+  
 ### References:  
 [1] Baluska, F. and Levin, M. (2016). On Having No Head: Cognition throughout Biological Systems.  _Frontiers in Psychology_, doi:10.3389/fpsyg.2016.00902.
 
