@@ -29,6 +29,14 @@ Table 1. A demonstration of how autonomy can be partitioned into generated and o
 </p>
   
 ### Psychophysical behaviors produced by a non-neuronal system
+
+There are a number of psychophysical phenomenon that are demonstrated by _Bacillaria_, and perhaps even Diatoms more generally:
+
+* flow detection.
+
+* resonance detection.
+
+* phototaxis thresholding.
   
 ### References:  
 [1] Baluska, F. and Levin, M. (2016). On Having No Head: Cognition throughout Biological Systems.  _Frontiers in Psychology_, doi:10.3389/fpsyg.2016.00902.
