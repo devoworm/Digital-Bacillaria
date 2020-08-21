@@ -58,3 +58,12 @@ There are a number of psychophysical phenomenon that are demonstrated by _Bacill
 [9] Cocchi, L., Gollo, L.L., Zalesky, A., Breakspear, M. (2017). Criticality in the Brain: A Synthesis of Neurobiology, Models and Cognition. _Progress in Neurobiolology_, 158, 132-152. doi:10.1016/ j.pneurobio.2017.07.002.
 
 [10] Witkowski, O. and Sinapayen, L. (2020). Fake Life Recognition Contest. _Github_,  https://github.com/LanaSina/FLR_contest/blob/master/Readme.md
+
+### Additional References:
+Hart, Y., Goldberg, H., Striem-Amit, E., Mayo, A.E., Noy, L., and Alon, U. (2018). Creative exploration as a scale-invariant search on a meaning landscape. _Nature Communications_, 9, 5411.
+
+Chater, N. and Brown, G.D.A. (2008). From universal laws of cognition to specific cognitive models. _Cognitive Science_, 32, 36–67.
+
+Kello, C.T., Brown, G.D.A., Ferrer-i-Cancho, R., Holden, J.G., Linkenkaer-Hansen, K., Rhodes, T., and Van Orden, G.C. (2010). Scaling laws in cognitive sciences. _Trends in Cognitive Science_, 14, 223–232.
+
+Chater, N. and Brown, G.D.A. (1999). Scale-invariance as a unifying psychological principle. _Cognition_, 69, B17–B24.
