@@ -28,6 +28,11 @@ Table 1. A demonstration of how autonomy can be partitioned into generated and o
   <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/table-of-behaviors.png"><BR>
 </p>
   
+### Measurement techniques
+
+Signal Detection Theory, Fold-change detection  
+
+  
 ### Psychophysical behaviors produced by a non-neuronal system
 
 There are a number of psychophysical phenomenon that are demonstrated by _Bacillaria_, and perhaps even Diatoms more generally:
