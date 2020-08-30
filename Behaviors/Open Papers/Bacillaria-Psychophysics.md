@@ -30,9 +30,11 @@ Table 1. A demonstration of how autonomy can be partitioned into generated and o
   
 ### Measurement techniques
 
-Signal Detection Theory (), Fold-change detection ( ;Kerkhof and Enquist, 2009).
+Signal Detection Theory (??), Fold-change detection (Adler and Alon, 2018; Kerkhof and Enquist, 2009).
 
 Lan and Tu, 2016 -- Input-Output Relationship.
+
+Zakirov et.al, 2020 -- Active perception in cells.
 
   
 ### Psychophysical behaviors produced by a non-neuronal system
@@ -80,3 +82,6 @@ Chater, N. and Brown, G.D.A. (1999). Scale-invariance as a unifying psychologica
 Lan, G. and Tu, Y. (2016). Information Processing in Bacteria: Memory, Computation, and Statistical Physics: a Key Issues Review. _Reports on Progress in Physics_, 79(5), 052601.
 
 Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.
+
+Zakirov, B., Charalambous, G., Aspalter, I.M., Van-Vuuren, K., Mead, T., Kyle Harrington, K., Thuret, R., Ravasz Regan, E., Herbert, S.P., and Bentley, K. (2020). Active 
+Perception during Angiogenesis: Filopodia speed up Notch selection of tip cells _in silico_ and _in vivo_. bioRxiv, doi:10.1101/2020.08.22.261263.
