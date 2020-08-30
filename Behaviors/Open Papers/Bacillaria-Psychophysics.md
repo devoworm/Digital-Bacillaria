@@ -30,7 +30,9 @@ Table 1. A demonstration of how autonomy can be partitioned into generated and o
   
 ### Measurement techniques
 
-Signal Detection Theory, Fold-change detection  
+Signal Detection Theory (), Fold-change detection ( ;Kerkhof and Enquist, 2009).
+
+Lan and Tu, 2016 -- Input-Output Relationship.
 
   
 ### Psychophysical behaviors produced by a non-neuronal system
@@ -65,6 +67,8 @@ There are a number of psychophysical phenomenon that are demonstrated by _Bacill
 [10] Witkowski, O. and Sinapayen, L. (2020). Fake Life Recognition Contest. _Github_,  https://github.com/LanaSina/FLR_contest/blob/master/Readme.md
 
 ### Additional References:
+Adler, M. and Alon, U. (2018). Fold-change detection in biological systems. _Current Opinion in Systems Biology_, 8, 81-89.
+
 Hart, Y., Goldberg, H., Striem-Amit, E., Mayo, A.E., Noy, L., and Alon, U. (2018). Creative exploration as a scale-invariant search on a meaning landscape. _Nature Communications_, 9, 5411.
 
 Chater, N. and Brown, G.D.A. (2008). From universal laws of cognition to specific cognitive models. _Cognitive Science_, 32, 36–67.
@@ -72,3 +76,7 @@ Chater, N. and Brown, G.D.A. (2008). From universal laws of cognition to specifi
 Kello, C.T., Brown, G.D.A., Ferrer-i-Cancho, R., Holden, J.G., Linkenkaer-Hansen, K., Rhodes, T., and Van Orden, G.C. (2010). Scaling laws in cognitive sciences. _Trends in Cognitive Science_, 14, 223–232.
 
 Chater, N. and Brown, G.D.A. (1999). Scale-invariance as a unifying psychological principle. _Cognition_, 69, B17–B24.
+
+Lan, G. and Tu, Y. (2016). Information Processing in Bacteria: Memory, Computation, and Statistical Physics: a Key Issues Review. _Reports on Progress in Physics_, 79(5), 052601.
+
+Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.
