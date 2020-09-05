@@ -32,9 +32,9 @@ Table 1. A demonstration of how autonomy can be partitioned into generated and o
 
 Signal Detection Theory, Fold-change detection [11,12].
 
-Lan and Tu, 2016 -- Input-Output Relationship.
+Input-Output Relationship [13].
 
-Zakirov et.al, 2020 -- Active perception in cells.
+Active perception in cells [14].
 
 Build an internal model with inputs, outputs, processing units, and interactions. Certain behaviors should conform to a statistical regularity (linear or curvilinear output function).
   
@@ -73,10 +73,14 @@ There are a number of psychophysical phenomenon that are demonstrated by _Bacill
 
 [12] Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.
 
+[13] Lan, G. and Tu, Y. (2016). Information Processing in Bacteria: Memory, Computation, and Statistical Physics: a Key Issues Review. _Reports on Progress in Physics_, 79(5), 052601.
+
+[14] Zakirov, B., Charalambous, G., Aspalter, I.M., Van-Vuuren, K., Mead, T., Kyle Harrington, K., Thuret, R., Ravasz Regan, E., Herbert, S.P., and Bentley, K. (2020). Active 
+Perception during Angiogenesis: Filopodia speed up Notch selection of tip cells _in silico_ and _in vivo_. bioRxiv, doi:10.1101/2020.08.22.261263.  
+
 
 
 ### Additional References:
-
 Hart, Y., Goldberg, H., Striem-Amit, E., Mayo, A.E., Noy, L., and Alon, U. (2018). Creative exploration as a scale-invariant search on a meaning landscape. _Nature Communications_, 9, 5411.
 
 Chater, N. and Brown, G.D.A. (2008). From universal laws of cognition to specific cognitive models. _Cognitive Science_, 32, 36–67.
@@ -85,8 +89,3 @@ Kello, C.T., Brown, G.D.A., Ferrer-i-Cancho, R., Holden, J.G., Linkenkaer-Hansen
 
 Chater, N. and Brown, G.D.A. (1999). Scale-invariance as a unifying psychological principle. _Cognition_, 69, B17–B24.
 
-Lan, G. and Tu, Y. (2016). Information Processing in Bacteria: Memory, Computation, and Statistical Physics: a Key Issues Review. _Reports on Progress in Physics_, 79(5), 052601.
-
-
-Zakirov, B., Charalambous, G., Aspalter, I.M., Van-Vuuren, K., Mead, T., Kyle Harrington, K., Thuret, R., Ravasz Regan, E., Herbert, S.P., and Bentley, K. (2020). Active 
-Perception during Angiogenesis: Filopodia speed up Notch selection of tip cells _in silico_ and _in vivo_. bioRxiv, doi:10.1101/2020.08.22.261263.
