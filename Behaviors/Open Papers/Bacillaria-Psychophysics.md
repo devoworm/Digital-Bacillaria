@@ -30,7 +30,7 @@ Table 1. A demonstration of how autonomy can be partitioned into generated and o
   
 ### Measurement techniques
 
-Signal Detection Theory, Fold-change detection (Adler and Alon, 2018; Kerkhof and Enquist, 2009).
+Signal Detection Theory, Fold-change detection [11,12].
 
 Lan and Tu, 2016 -- Input-Output Relationship.
 
@@ -67,10 +67,15 @@ There are a number of psychophysical phenomenon that are demonstrated by _Bacill
 
 [9] Cocchi, L., Gollo, L.L., Zalesky, A., Breakspear, M. (2017). Criticality in the Brain: A Synthesis of Neurobiology, Models and Cognition. _Progress in Neurobiolology_, 158, 132-152. doi:10.1016/ j.pneurobio.2017.07.002.
 
-[10] Witkowski, O. and Sinapayen, L. (2020). Fake Life Recognition Contest. _Github_,  https://github.com/LanaSina/FLR_contest/blob/master/Readme.md
+[10] Witkowski, O. and Sinapayen, L. (2020). Fake Life Recognition Contest. _Github_,  https://github.com/LanaSina/FLR_contest/blob/master/Readme.md  
+
+[11] Adler, M. and Alon, U. (2018). Fold-change detection in biological systems. _Current Opinion in Systems Biology_, 8, 81-89.
+
+[12] Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.
+
+
 
 ### Additional References:
-Adler, M. and Alon, U. (2018). Fold-change detection in biological systems. _Current Opinion in Systems Biology_, 8, 81-89.
 
 Hart, Y., Goldberg, H., Striem-Amit, E., Mayo, A.E., Noy, L., and Alon, U. (2018). Creative exploration as a scale-invariant search on a meaning landscape. _Nature Communications_, 9, 5411.
 
@@ -82,7 +87,6 @@ Chater, N. and Brown, G.D.A. (1999). Scale-invariance as a unifying psychologica
 
 Lan, G. and Tu, Y. (2016). Information Processing in Bacteria: Memory, Computation, and Statistical Physics: a Key Issues Review. _Reports on Progress in Physics_, 79(5), 052601.
 
-Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.
 
 Zakirov, B., Charalambous, G., Aspalter, I.M., Van-Vuuren, K., Mead, T., Kyle Harrington, K., Thuret, R., Ravasz Regan, E., Herbert, S.P., and Bentley, K. (2020). Active 
 Perception during Angiogenesis: Filopodia speed up Notch selection of tip cells _in silico_ and _in vivo_. bioRxiv, doi:10.1101/2020.08.22.261263.
