@@ -30,12 +30,13 @@ Table 1. A demonstration of how autonomy can be partitioned into generated and o
   
 ### Measurement techniques
 
-Signal Detection Theory (??), Fold-change detection (Adler and Alon, 2018; Kerkhof and Enquist, 2009).
+Signal Detection Theory, Fold-change detection (Adler and Alon, 2018; Kerkhof and Enquist, 2009).
 
 Lan and Tu, 2016 -- Input-Output Relationship.
 
 Zakirov et.al, 2020 -- Active perception in cells.
 
+Build an internal model with inputs, outputs, processing units, and interactions. Certain behaviors should conform to a statistical regularity (linear or curvilinear output function).
   
 ### Psychophysical behaviors produced by a non-neuronal system
 
