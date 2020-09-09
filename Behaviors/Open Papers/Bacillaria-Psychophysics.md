@@ -89,3 +89,11 @@ Kello, C.T., Brown, G.D.A., Ferrer-i-Cancho, R., Holden, J.G., Linkenkaer-Hansen
 
 Chater, N. and Brown, G.D.A. (1999). Scale-invariance as a unifying psychological principle. _Cognition_, 69, B17–B24.
 
+Shepard, R.N. (1987). Toward a Universal Law of Generalization for Psychological Science. _Science_, 237(4820), 1317-1323.
+
+Poulton, E.C. (1968). The New Psychophysics: six models for magnitude estimation. _Psychological Bulletin_, 69(1), 1317-1323.
+
+Nosofsky, R.M. (1992). Similarity Scaling and Cognitive Process Models. _Annual Reviews in Psychology_, 43, 25-53.
+
+Nover, H., Anderson, C.H., and DeAngelis, G.C. (2005). A Logarithmic, Scale-Invariant Representation of Speed in Macaque Middle Temporal Area Accounts for Speed Discrimination Performance. _Journal of Neuroscience_, 25(43), 10049–10060
+
