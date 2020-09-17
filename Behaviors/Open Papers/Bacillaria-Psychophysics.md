@@ -38,15 +38,15 @@ Table 1. A demonstration of how autonomy can be partitioned into generated and o
   <img src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/table-of-behaviors.png"><BR>
 </p>
   
-### Measurement techniques
+### Measurement techniques  
 
-Signal Detection Theory, Fold-change detection [12,13].
+Input-Output Relationship [12] and active perception in cells [13], measured using tools such as Signal Detection Theory (SDT) and fold-change detection [14,15].
 
-Input-Output Relationship [14].
+Using a set of light source values, can we establish an input/output curve that determines how much input results in a corresponding degree of output? We can based this on the work of Dvoretskii et.al (2020) with Braitenberg Vehicles, where internal model are inferred for a vehilce across the span of development. In this case, we need a similar model for our non-neuronal model. In this case, a connectionist-inspired model of multicellular movement propagation can be modified in a number of ways to uncover the interactions between environmental stimuli and the expression of behavior.
 
-Active perception in cells [15].
+|||| Kuramoto oscillators [16] are used to model synchronized neuronal activity. In our connectionist model, nodes (neuronal units) can act as neuronal oscillators, and the connections are determined by the relative degree of synchronization between neighboring cells.
 
-Build an internal model with inputs, outputs, processing units, and interactions. Certain behaviors should conform to a statistical regularity (linear or curvilinear output function).
+The network allows us to build an internal model with inputs, outputs, processing units, and interactions. Certain behaviors should conform to a statistical regularity (linear or curvilinear output function).
   
 ### Psychophysical behaviors produced by a non-neuronal system
 
@@ -81,14 +81,15 @@ There are a number of psychophysical phenomenon that are demonstrated by _Bacill
 
 [11] Witkowski, O. and Sinapayen, L. (2020). Fake Life Recognition Contest. _Github_,  https://github.com/LanaSina/FLR_contest/blob/master/Readme.md  
 
-[12] Adler, M. and Alon, U. (2018). Fold-change detection in biological systems. _Current Opinion in Systems Biology_, 8, 81-89.
+[12] Lan, G. and Tu, Y. (2016). Information Processing in Bacteria: Memory, Computation, and Statistical Physics: a Key Issues Review. _Reports on Progress in Physics_, 79(5), 052601.  
 
-[13] Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.
-
-[14] Lan, G. and Tu, Y. (2016). Information Processing in Bacteria: Memory, Computation, and Statistical Physics: a Key Issues Review. _Reports on Progress in Physics_, 79(5), 052601.
-
-[15] Zakirov, B., Charalambous, G., Aspalter, I.M., Van-Vuuren, K., Mead, T., Kyle Harrington, K., Thuret, R., Ravasz Regan, E., Herbert, S.P., and Bentley, K. (2020). Active 
+[13] Zakirov, B., Charalambous, G., Aspalter, I.M., Van-Vuuren, K., Mead, T., Kyle Harrington, K., Thuret, R., Ravasz Regan, E., Herbert, S.P., and Bentley, K. (2020). Active 
 Perception during Angiogenesis: Filopodia speed up Notch selection of tip cells _in silico_ and _in vivo_. bioRxiv, doi:10.1101/2020.08.22.261263.  
+
+[14] Adler, M. and Alon, U. (2018). Fold-change detection in biological systems. _Current Opinion in Systems Biology_, 8, 81-89.  
+
+[15] Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.  
+[16] Breakspear, M., Heitmann, S. and Daffertshofer, A. (2010). Generative models of cortical oscillations: neurobiological implications of the Kuramoto model. _Frontiers Human Neuroscience_, 4, 190. doi:10.3389/fnhum.2010.00190.
 
 
 ### Additional References:
