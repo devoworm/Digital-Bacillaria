@@ -13,7 +13,7 @@ _Bacillaria_ behavior-generation system looks like the following:
 
 * movement as the seat of intelligence, as suggested in particular Michael Graziano's "Intelligent Movement Machine".
 
-* produces a set of sine waves, one for each pair of filaments.
+* produces a set of sine waves, one for each pair of filaments. More complicated movements can result in other types of waveforms, but there is a basic oscillatory rhythm due to anatomical constrints.
 
 * the entire chain produces an oscillator with harmonics (delayed by _n_ degrees out-of-phase).  
 
