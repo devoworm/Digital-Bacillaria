@@ -9,7 +9,7 @@ In _Bacillaria_, we observe collective pattern generators (CoPGs), which are gen
 
 _Bacillaria_ behavior-generation system looks like the following:
 
-* no spatial representation (free-moving), but does exhibit limited goal-directed behavior.
+* no spatial representation (free-moving), but does exhibit limited goal-directed behavior. Behaviors are explicitly spatial in that multicellular chains move in certain directions (not simply via Brownian motion).
 
 * movement as the seat of intelligence, as suggested in particular Michael Graziano's "Intelligent Movement Machine".
 
