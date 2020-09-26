@@ -11,8 +11,8 @@ Four basic regularities of psychophysics as discussed in [6]:
 
 2) scalar variability found in the Weber-Fechner law.
 
-Weber-Fechner law: 
-$_p_ = _k ln_\frac{_S_}{_S_0_}$
+Weber-Fechner law:   
+$p = k ln\frac{_S_}{_S_0_}$
 
 where the sensation (input of $S_n$) is proportional to the logarithm of the stimulus intensity. $S_0$ is the reference stimulus and _S_ is the change from the reference to the target stimulus.
 
