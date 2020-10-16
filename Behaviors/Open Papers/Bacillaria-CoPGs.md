@@ -51,11 +51,11 @@ Figure showing integration of multiple legs.
 </p>
 <p align="center">
   <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/out-of-phase-quarter-phase-25.png"><BR>
-  Two adjacent and overlapping pairs of oscillatory cell movments (sine waves, quarter-phase)
+  Two adjacent and overlapping pairs of oscillatory cell movements (sine waves, quarter-phase)
 </p>
 <p align="center">
   <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/out-of-phase-quarter-phase-75.png"><BR>
-  Two adjacent and overlapping pairs of oscillatory cell movments (sine waves, three-quarter phase)
+  Two adjacent and overlapping pairs of oscillatory cell movements (sine waves, three-quarter phase)
 </p>
 <p align="center">
   <img width="256" height="227" src="https://github.com/devoworm/Digital-Bacillaria/blob/master/Behaviors/attractor-90-degrees-out-of-phase.png"><BR>
