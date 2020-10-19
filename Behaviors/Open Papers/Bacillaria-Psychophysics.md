@@ -81,7 +81,7 @@ There are a number of psychophysical phenomenon that are demonstrated by _Bacill
 
 [9] du Bois, N. and Elliott, M.A. (2017). The temporal dynamics involved in object representation updating to predict change. _Progress in Brain Research_, 236, 269-285.
 
-[10] Cocchi, L., Gollo, L.L., Zalesky, A., Breakspear, M. (2017). Criticality in the Brain: A Synthesis of Neurobiology, Models and Cognition. _Progress in Neurobiolology_, 158, 132-152. doi:10.1016/ j.pneurobio.2017.07.002.
+[10] Cocchi, L., Gollo, L.L., Zalesky, A., Breakspear, M. (2017). Criticality in the Brain: A Synthesis of Neurobiology, Models and Cognition. _Progress in Neurobiolology_, 158, 132-152. doi:10.1016/ j.pneurobio.2017.07.002.  
 
 [11] Witkowski, O. and Sinapayen, L. (2020). Fake Life Recognition Contest. _Github_,  https://github.com/LanaSina/FLR_contest/blob/master/Readme.md  
 
@@ -92,7 +92,7 @@ Perception during Angiogenesis: Filopodia speed up Notch selection of tip cells 
 
 [14] Adler, M. and Alon, U. (2018). Fold-change detection in biological systems. _Current Opinion in Systems Biology_, 8, 81-89.  
 
-[15] Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.  
+[15] Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.    
 [16] Breakspear, M., Heitmann, S. and Daffertshofer, A. (2010). Generative models of cortical oscillations: neurobiological implications of the Kuramoto model. _Frontiers Human Neuroscience_, 4, 190. doi:10.3389/fnhum.2010.00190.
 
 
