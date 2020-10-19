@@ -44,11 +44,13 @@ Table 1. A demonstration of how autonomy can be partitioned into generated and o
   
 ### Measurement techniques  
 
-Input-Output Relationship [12] and active perception in cells [13], measured using tools such as Signal Detection Theory (SDT) and fold-change detection [14,15].
+Input-Output Relationship [12] and active perception in cells [13], measured using tools such as Signal Detection Theory (SDT) and fold-change detection [14-16].
 
-Using a set of light source values, can we establish an input/output curve that determines how much input results in a corresponding degree of output? We can based this on the work of Dvoretskii et.al (2020) with Braitenberg Vehicles, where internal model are inferred for a vehilce across the span of development. In this case, we need a similar model for our non-neuronal model. In this case, a connectionist-inspired model of multicellular movement propagation can be modified in a number of ways to uncover the interactions between environmental stimuli and the expression of behavior.
+Magnitude estimation [17] and a route to laws and principles [18-20].
 
-|||| Kuramoto oscillators [16] are used to model synchronized neuronal activity. In our connectionist model, nodes (neuronal units) can act as neuronal oscillators, and the connections are determined by the relative degree of synchronization between neighboring cells.
+Using a set of light source values, can we establish an input/output curve that determines how much input results in a corresponding degree of output? We can based this on the work of Dvoretskii et.al [21] with developmental Braitenberg Vehicles, where internal model are inferred for a vehilce across the span of development. In this case, we need a similar model for our non-neuronal model. In this case, a connectionist-inspired model of multicellular movement propagation can be modified in a number of ways to uncover the interactions between environmental stimuli and the expression of behavior.
+
+|||| Kuramoto oscillators [22] are used to model synchronized neuronal activity. In our connectionist model, nodes (neuronal units) can act as neuronal oscillators, and the connections are determined by the relative degree of synchronization between neighboring cells.
 
 The network allows us to build an internal model with inputs, outputs, processing units, and interactions. Certain behaviors should conform to a statistical regularity (linear or curvilinear output function).
   
@@ -92,22 +94,25 @@ Perception during Angiogenesis: Filopodia speed up Notch selection of tip cells 
 
 [14] Adler, M. and Alon, U. (2018). Fold-change detection in biological systems. _Current Opinion in Systems Biology_, 8, 81-89.  
 
-[15] Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.    
-[16] Breakspear, M., Heitmann, S. and Daffertshofer, A. (2010). Generative models of cortical oscillations: neurobiological implications of the Kuramoto model. _Frontiers Human Neuroscience_, 4, 190. doi:10.3389/fnhum.2010.00190.
+[15] Kerkhof, A.J. and Enquist, B.J. (2009). Multiplicative by nature: why logarithmic transformation is necessary in allometry. _Journal of Theoretical Biology_, 257, 519–521.
+
+[16] Kello, C.T., Brown, G.D.A., Ferrer-i-Cancho, R., Holden, J.G., Linkenkaer-Hansen, K., Rhodes, T., and Van Orden, G.C. (2010). Scaling laws in cognitive sciences. _Trends in Cognitive Science_, 14, 223–232.
+
+[17] Poulton, E.C. (1968). The New Psychophysics: six models for magnitude estimation. _Psychological Bulletin_, 69(1), 1317-1323.
+
+[18] Shepard, R.N. (1987). Toward a Universal Law of Generalization for Psychological Science. _Science_, 237(4820), 1317-1323.
+
+[19] Chater, N. and Brown, G.D.A. (1999). Scale-invariance as a unifying psychological principle. _Cognition_, 69, B17–B24.
+
+[20] Chater, N. and Brown, G.D.A. (2008). From universal laws of cognition to specific cognitive models. _Cognitive Science_, 32, 36–67.
+
+[21] Dvoretskii, S., Gong, Z., Gupta, A., Parent, J., and Alicea, B. (2020). Braitenberg Vehicles as Developmental Neurosimulation. _arXiv_, 2003.07689.
+
+[22] Breakspear, M., Heitmann, S. and Daffertshofer, A. (2010). Generative models of cortical oscillations: neurobiological implications of the Kuramoto model. _Frontiers Human Neuroscience_, 4, 190. doi:10.3389/fnhum.2010.00190.
 
 
 ### Additional References:
 Hart, Y., Goldberg, H., Striem-Amit, E., Mayo, A.E., Noy, L., and Alon, U. (2018). Creative exploration as a scale-invariant search on a meaning landscape. _Nature Communications_, 9, 5411.
-
-Chater, N. and Brown, G.D.A. (2008). From universal laws of cognition to specific cognitive models. _Cognitive Science_, 32, 36–67.
-
-Kello, C.T., Brown, G.D.A., Ferrer-i-Cancho, R., Holden, J.G., Linkenkaer-Hansen, K., Rhodes, T., and Van Orden, G.C. (2010). Scaling laws in cognitive sciences. _Trends in Cognitive Science_, 14, 223–232.
-
-Chater, N. and Brown, G.D.A. (1999). Scale-invariance as a unifying psychological principle. _Cognition_, 69, B17–B24.
-
-Shepard, R.N. (1987). Toward a Universal Law of Generalization for Psychological Science. _Science_, 237(4820), 1317-1323.
-
-Poulton, E.C. (1968). The New Psychophysics: six models for magnitude estimation. _Psychological Bulletin_, 69(1), 1317-1323.
 
 Nosofsky, R.M. (1992). Similarity Scaling and Cognitive Process Models. _Annual Reviews in Psychology_, 43, 25-53.
 
