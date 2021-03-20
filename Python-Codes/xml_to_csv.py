@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-""" importing Libraries for our converstion
+""" importing Libraries for our conversion
 """
 
 import os
@@ -33,12 +33,12 @@ def xml_to_csv(path):
 
 
 """ 
-   I have make a parent folder and under this I have created two folders whose description is written below-
+   I have made a parent folder and under this I have created two folders whose description is written below-
   
-   images - this folder contains test and train images which their respective xml files | Test contain 10 percent data of train folder in my case.
-   data - where train_labels.csv and test_labels.csv file will be generated.
+   images - this folder contains test and train images with their respective xml files | Test contains 10 percent of the data in train folder in my case.
+   data - where train_labels.csv and test_labels.csv files will be generated.
    
-   This file is not in digital notebook format because its has nothing to show, and it is difficult to upload such a huge data on colab or Jupyter Notebooks.
+   This file is not in digital notebook format because it has nothing to show, and it is difficult to upload such a huge data on colab or Jupyter Notebooks.
 
 """
   
