@@ -40,12 +40,13 @@ Once you have labeled the images with help of a tool, you have noticed that your
 
 ```python
 
-    def main():
-	    for directory in ['train','test']:
-		    image_path = os.path.join(os.getcwd(), 'images/{}'.format(directory))
-		    xml_df = xml_to_csv(image_path)
-		    xml_df.to_csv('data/{}_labels.csv'.format(directory), index=None)
-		    print ('Successfully converted xml to csv.')
+def main():
+	for directory in ['train','test']:
+		image_path = os.path.join(os.getcwd(), 'images/{}'.format(directory))
+		xml_df = xml_to_csv(image_path)
+		xml_df.to_csv('data/{}_labels.csv'.format(directory), index=None)
+		print ('Successfully converted xml to csv.')
+		
 ```				
 
 This code defines two folders: train and test, and also converts the image output from _XML_ to _csv_. 
@@ -174,7 +175,7 @@ Finally, in the Detection section, change _TEST_IMAGE_PATHS_ to:
     'image{}.jpg'.format(i)) for i in range(min, max) ]
     Min-lowest image number/indes
     Max-highest image number/index
-	
+
 ```
 
 If you get errors or do not get satisfactory results, this might be due to two factors: poor annotation of the source data, or an ill-suited pre-trained model relative to your input data. Look over the annotation for inconsistencies. If this does not result in an improvement, try [other pre-trained models at in the TensorFlow library](https://www.tensorflow.org/resources/models-datasets).
