@@ -39,12 +39,13 @@ Once you have settled on your input dataset, you need to train your model using 
 Once you have labeled the images with help of a tool, you have noticed that your records are stored in _XML_ format (in most cases, some tools store it directly in the _csv_ format). We need to convert these records from _XML_ format to _csv_ format, as this will help us in further steps that we encounter later in this tutorial.
 
 ```python
+
     def main():
-	      for directory in ['train','test']:
-		        image_path = os.path.join(os.getcwd(), 'images/{}'.format(directory))
-		        xml_df = xml_to_csv(image_path)
-		        xml_df.to_csv('data/{}_labels.csv'.format(directory), index=None)
-		        print ('Successfully converted xml to csv.')
+	    for directory in ['train','test']:
+		    image_path = os.path.join(os.getcwd(), 'images/{}'.format(directory))
+		    xml_df = xml_to_csv(image_path)
+		    xml_df.to_csv('data/{}_labels.csv'.format(directory), index=None)
+		    print ('Successfully converted xml to csv.')
 ```				
 
 This code defines two folders: train and test, and also converts the image output from _XML_ to _csv_. 
@@ -52,6 +53,7 @@ This code defines two folders: train and test, and also converts the image outpu
 Now you have a csv file for both the training and testing data. Our next step is to generate our TensorFlow records from these _csv_ files. To proceed, you will need to install a few libraries
 
 ```python
+
     from_future_import division
     from_future_import print function
     from_future_import absolute_import
@@ -64,6 +66,7 @@ Now you have a csv file for both the training and testing data. Our next step is
     from PIL import Image
     from object_detection.utils import dataset_util
     from collections import namedtuple, OrderedDict
+
 ```	
 
 Now we can create a template. The first step is to define your _csv_ input path where this script can pick up the _csv_ files. These are the files which we created in the previous step. You also need to define your output path, or where you want to save the TensorFlow records which will be created during script execution. Then, you need to define a function which returns a value of "1" whenever _row_label_ matches to your label name. In this context, label is the column name assigned during annotation.
@@ -71,12 +74,13 @@ Now we can create a template. The first step is to define your _csv_ input path 
 Next, define a _create_tf_ function that will eventually convert these csv files into TensorFlow records. For this function, you have to extract all the information which is present in the _csv_ file. You can do this by following the below function.
 
 ```python
+
     def create_tf_example(group, path):
-	      with tf.gfile.GFile(os.path.jin(path, '{}'.format(group.filename)), 'rb') as fid:
-		        encoded_jpg = fid.red()
-	      encoded_jpg_io = io.BytesIO(encoded_jpg)
-	      image = Image.open(encoded_jpg_io)
-	      width, height = image.size
+	    with tf.gfile.GFile(os.path.jin(path, '{}'.format(group.filename)), 'rb') as fid:
+		    encoded_jpg = fid.red()
+	    encoded_jpg_io = io.BytesIO(encoded_jpg)
+	    image = Image.open(encoded_jpg_io)
+	    width, height = image.size
 	
 	   finename = group.filename.encode('utf8')
 	   image_format = b'jpg'
@@ -87,15 +91,15 @@ Next, define a _create_tf_ function that will eventually convert these csv files
 	   classes_text = []
 	   classes = []
 	
-	   for index, row in group.object.iterrows():
-		     xmins.append(row['xmin'] / width)
-		     xmaxs.append(row['xmax'] / width)
-		     ymins.append(row['ymin'] / height)
-		     ymaxs.append(row['ymax'] / height)
-		     classes_text.append(row['class'].encode('utf8'))
-		     classes_append(class_text_to_int(row['class']))
+	    for index, row in group.object.iterrows():
+		    xmins.append(row['xmin'] / width)
+		    xmaxs.append(row['xmax'] / width)
+		    ymins.append(row['ymin'] / height)
+		    ymaxs.append(row['ymax'] / height)
+		    classes_text.append(row['class'].encode('utf8'))
+		    classes_append(class_text_to_int(row['class']))
 		
-	   tf_example = tf.train.Example(features=tf.train.Features(feature={
+	    tf_example = tf.train.Example(features=tf.train.Features(feature={
 		    'image/height' : dataset_util.int64_feature(height),
 		    'image/width' : dataset_util.int64_feature(width),
 		    'image/filename' : dataset_util.bytes_feature(filename),
@@ -110,6 +114,7 @@ Next, define a _create_tf_ function that will eventually convert these csv files
 		    'image/object/class/label' : dataset_util.int64_list_feature(classes),
 	   }))
 	   return tf_example
+
 ```
 Change this function according to the features you want to define. After this just wrap up your python file by defining main function according to your need, your TensorFlow records are ready. You can find the code of this script in our GitHub repository. After all, this done, we are left with our data, files of _XML_ records, _CSV_ records, and _TF_ records. We now need a _TF_ record file to do the learning process.
 
@@ -129,7 +134,8 @@ Your steps start at 1 and the loss will be much higher. Depending on your GPU an
 ### TESTING OUR PRE-TRAINED MODEL
 In the _models/object_detection_ directory, there is a Python script called _export_inference_graph.py_. To run this, you just need to pass in your checkpoint and pipeline config, then whatever directory you want the inference graph to be saved. For example:
 
-```bash
+```bsh
+
     python3 export_inference_graph.py \
         input_type image_tensor \
         pipeline_config_path training/ssd_mobilenet_v1_pets.config \
@@ -140,7 +146,8 @@ In the _models/object_detection_ directory, there is a Python script called _exp
 
 Your checkpoint files should be in the training directory. Next, make sure the _pipeline_config_path_ is set to whatever config file you chose, and then finally choose the name for the output directory, we went with _bacillaria_inference_graph_. Run the above command from _models/object_detection_. If you get an error that the module named _nets_ is required, then you need to re-run _models/object_detection_.
 
-```
+```bsh
+
     # From tensorflow/models/
     export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
     # switch back to object_detection after this and re-run the above command
@@ -149,6 +156,7 @@ Your checkpoint files should be in the training directory. Next, make sure the _
 Otherwise, you should have a new directory, in our case is _bacillaria_inference_graph_, inside this new directory, we find new checkpoint data, a _saved_model_ directory, and the _forzen_inference_graph.pbfile_. This last item is the most important contents of the directory. Booting up Jupyter notebook and opening the _bacillaria_detection.ipynb_ (whch can be found in the Github repo), let us make a few changes. First, head to the Variables section, change the model name as well as the paths to the checkpoint and the labels.
 
 ```python
+
     # model to download.
     MODEL_NAME = 'bacillaria_inference_graph'
     # Path to frozen detection graph(actual model). 
@@ -161,10 +169,12 @@ Otherwise, you should have a new directory, in our case is _bacillaria_inference
 Finally, in the Detection section, change _TEST_IMAGE_PATHS_ to:
 
 ```python
+
     TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR,
     'image{}.jpg'.format(i)) for i in range(min, max) ]
     Min-lowest image number/indes
     Max-highest image number/index
+	
 ```
 
 If you get errors or do not get satisfactory results, this might be due to two factors: poor annotation of the source data, or an ill-suited pre-trained model relative to your input data. Look over the annotation for inconsistencies. If this does not result in an improvement, try [other pre-trained models at in the TensorFlow library](https://www.tensorflow.org/resources/models-datasets).
