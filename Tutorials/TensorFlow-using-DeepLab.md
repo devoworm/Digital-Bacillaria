@@ -40,13 +40,13 @@ Once you have labeled the images with help of a tool, you have noticed that your
 
 ```python
 
-def main():
-	for directory in ['train','test']:
-		image_path = os.path.join(os.getcwd(), 'images/{}'.format(directory))
-		xml_df = xml_to_csv(image_path)
-		xml_df.to_csv('data/{}_labels.csv'.format(directory), index=None)
+    def main():
+	    for directory in ['train','test']:
+		    image_path = os.path.join(os.getcwd(), 'images/{}'.format(directory))
+		    xml_df = xml_to_csv(image_path)
+		    xml_df.to_csv('data/{}_labels.csv'.format(directory), index=None)
 		print ('Successfully converted xml to csv.')
-		
+
 ```				
 
 This code defines two folders: train and test, and also converts the image output from _XML_ to _csv_. 
