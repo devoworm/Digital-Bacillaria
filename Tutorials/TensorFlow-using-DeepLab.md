@@ -16,10 +16,10 @@ In order to implement a deep network analysis, you will need to do the following
   
 Creating your dataset will depend on your domain of interest. You need to have a sizable sample (20-200 images) and perhaps use methods such as data augmentation [1] to improve the performance of your model.
 
-We will also go through a brief explaination of how to train your model using TensorFlow and Deeplab. You can use many other models as well, these steps are going to the same for almost all the models. Let us discuss the above steps in detail:
+We will also go through a brief explaination of how to train your model using TensorFlow and Deeplab. You can use any other models as well, these steps are going to be the same for almost all the models. Let us discuss the above steps in detail:
 
 ### 1. MAKE YOUR DATASET
-Creating a suitable dataset is the most essential aspect of TensorFlow implementation. You should keep in mind that your dataset must be accurate and should cover a large amount of variation relted to your phenomenon of interest.
+Creating a suitable dataset is the most essential aspect of TensorFlow implementation. You should keep in mind that your dataset must be accurate and should cover a large amount of variation related to your phenomenon of interest.
 
 In the case of _Bacillaria_ model training, we have split the microscopy data (movies) into a collection of image files. We have included both dark and light backgrounds to make our dataset more enriched and so that it covers a variety of cases.
 
@@ -70,7 +70,7 @@ Now you have a csv file for both the training and testing data. Our next step is
 
 ```	
 
-Now we can create a template. The first step is to define your _csv_ input path where this script can pick up the _csv_ files. These are the files which we created in the previous step. You also need to define your output path, or where you want to save the TensorFlow records which will be created during script execution. Then, you need to define a function which returns a value of "1" whenever _row_label_ matches to your label name. In this context, label is the column name assigned during annotation.
+Now we can create a template. The first step is to define your _csv_ input path from where this script can pick up the _csv_ files. These are the files which we created in the previous step. You also need to define your output path, or where you want to save the TensorFlow records which will be created during script execution. Then, you need to define a function which returns a value of "1" whenever _row_label_ matches to your label name. In this context, label is the column name assigned during annotation.
 
 Next, define a _create_tf_ function that will eventually convert these csv files into TensorFlow records. For this function, you have to extract all the information which is present in the _csv_ file. You can do this by following the below function.
 
@@ -117,7 +117,7 @@ Next, define a _create_tf_ function that will eventually convert these csv files
 	   return tf_example
 
 ```
-Change this function according to the features you want to define. After this just wrap up your python file by defining main function according to your need, your TensorFlow records are ready. You can find the code of this script in our GitHub repository. After all, this done, we are left with our data, files of _XML_ records, _CSV_ records, and _TF_ records. We now need a _TF_ record file to do the learning process.
+Change this function according to the features you want to define. After this just wrap up your python file by defining main function according to your need, your TensorFlow records are ready. You can find the code of this script in our GitHub repository. After all this done, we are left with our data: files of _XML_ records, _CSV_ records, and _TF_ records. We now need a _TF_ record file to do the learning process.
 
 Here, we have two options. We can use a pre-trained model, and then use transfer learning to learn a new object, or we could learn new objects entirely from scratch. The benefit of transfer learning is that training can be much quicker, and the required data that you might need is much less. For this reason, we are going to be doing transfer learning here.
 
