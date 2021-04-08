@@ -3,6 +3,9 @@ import cv2
 import time
 import imageio
 from scipy.optimize import linear_sum_assignment
+import argparse
+import os
+import sys
 
 def createimage(w,h):
 	size = (w, h, 1)
@@ -15,7 +18,12 @@ def Cost(pre_frame, cur_frame):
     cost[:,i] = ((pre_frame - cur_frame[i])**2).sum(axis=-1)
   return cost
 
-def trackData(path_to_detections):
+def trackData(path_to_detections, img_shape):
+
+    if not os.path.exists(path_to_detections):
+        print("input file does not exists:", path_to_detections)
+        sys.exit(1)
+
     data = np.array(np.load(path_to_detections))
 
 
@@ -33,10 +41,10 @@ def trackData(path_to_detections):
     # print( data[:,2,:])
     
     images =[]
-
+    h, w = img_shape
     for i in range(data.shape[1]):
         centers =  data[:,i,:]
-        frame = createimage(512,512)                   #2D image shape
+        frame = createimage(w, h)                   #2D image shape
 
         for j in range(data.shape[0]):
             x = int( data[j,i,0])
@@ -53,8 +61,22 @@ def trackData(path_to_detections):
 
         images.append(frame)
     
-    imageio.mimsave('Microscopy-Tracking/Multi-Tracking_Result.gif', images, duration=0.05)
+    imageio.mimsave('Multi-Tracking_Result.gif', images, duration=0.05)
 
     return  data, cost[col_ind, row_ind]
 
-trackData("Microscopy-Tracking/movement.npy")
+def main():
+    parser = argparse.ArgumentParser(
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
+    )
+    parser.add_argument("--input", help="Path to file of detection in .npy format", required=True)
+    parser.add_argument("--h", help="height of image ", required=True)
+    parser.add_argument("--w", help="width of image ", required=True)
+   
+    args = parser.parse_args()
+
+    trackData(args.input, [int(args.h), int(args.w)])
+
+
+if __name__ == "__main__":
+    main()
