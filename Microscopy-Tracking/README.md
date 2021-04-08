@@ -1,6 +1,6 @@
 # Multi Object Tracking
 
-The tracking is done on the data extracted from object detection. This implementation assigns the each detection in the current frame based on the detection in previous frame. The assignment is based on nearest neighbour. Sample output from this multi object tracker implementation on [synthetic dataset](movement.npyy).
+The tracking is done on the data extracted from object detection. This implementation assigns the each detection in the current frame based on the detection in previous frame. The assignment is based on nearest neighbour. Sample output from this multi object tracker implementation on [synthetic dataset](movement.npy).
 
 ## How to run 
 ```bash
