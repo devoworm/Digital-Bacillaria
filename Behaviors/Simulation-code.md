@@ -20,7 +20,9 @@ plot(x)
 plot(y)  
 ```
 
-[[out-of-phase-quarter-phase-75.png]]  
+<p align="center">
+  <img src="out-of-phase-quarter-phase-75.png" alt="out-of-phase-quarter-phase-75" height="400" width="500" />
+</p>
 
 ```python3
 n = length(x); // where n = 629.  
@@ -41,7 +43,9 @@ plot(x)
 plot(y)  
 ```
 
-[[out-of-phase-quarter-phase-25.png]]  
+<p align="center">
+  <img src="out-of-phase-quarter-phase-25.png" alt="out-of-phase-quarter-phase-25" height="400" width="500" />
+</p>
 
 #### Extension of cell pair (tangent from an oscillation)
 
@@ -56,7 +60,9 @@ plot(x)
 plot(y)  
 ```
 
-[[tangent-at-positive-1.png]] 
+<p align="center">
+  <img src="tangent-at-positive-1.png" alt="tangent-at-positive-1" height="400" width="500" />
+</p>
 
 ```python3
 n = length(x); // where n = 629.  
@@ -79,8 +85,9 @@ plot(x)
 plot(y)  
 ```
 
-[[tangent-at-negative-1.png]] 
-
+<p align="center">
+  <img src="tangent-at-negative-1.png" alt="tangent-at-negative-1" height="400" width="500" />
+</p>
 
 
 #### Simulating a noisy sine wave cycle
@@ -92,4 +99,6 @@ z = rand(1:629);
 zz = x .* z;
 plot(zz)
 ```
-[[noisy-sine-wave-sample.png]]
+<p align="center">
+  <img src="noisy-sine-wave-sample.png" alt="noisy-sine-wave-sample" height="400" width="500" />
+</p>
