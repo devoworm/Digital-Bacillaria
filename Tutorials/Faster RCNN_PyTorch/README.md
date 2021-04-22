@@ -1,7 +1,7 @@
 ## Faster RCNN with Auto-rotation
 
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YashMaxy/Digital-Bacillaria/blob/master/Tutorials/Faster%20RCNN_PyTorch/Train_Faster_RCNN.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/devoworm/Digital-Bacillaria/blob/master/Tutorials/Faster%20RCNN_PyTorch/Train_Faster_RCNN.ipynb)
 
 
 The above ipython notebook concisely describes a step-by-step approach from building a data pipeline for a custom dataset to training and visualizing the performance of the model.
