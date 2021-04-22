@@ -26,6 +26,12 @@ python Image-tracking.py --input movement.npy --h 512 --w 512
   <p align="center">Sample Multi Obejct Tracking output</p>
 </p>
 
+## Future Improvement
+
+- [ ] Use Kalman Filter for estimate futuure prediction
+- [ ] Improving Loss function(e.g. Use Predicted feature)
+- [ ] Adding some more validation before assignment
+
 ## References
 - https://en.wikipedia.org/wiki/Hungarian_algorithm
 - http://www.hungarianalgorithm.com/index.php
