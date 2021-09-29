@@ -1,4 +1,6 @@
 ## Digital Bacillaria
+Address an [issue](https://github.com/devoworm/Digital-Bacillaria/issues) or a [group meeting](https://devoworm.weebly.com/schedulejoin.html), Contribute to Hacktoberfest 2021!
+<IMG width="480" height="120" SRC = "https://github.com/devoworm/Digital-Bacillaria/blob/master/Hacktoberfest/hf_logo.png">
 
 <p align="center">
   <img width="239" height="211" src="https://user-images.githubusercontent.com/19001437/57882552-960c8900-77e9-11e9-9f10-9ab687f6391e.jpg"><BR>
