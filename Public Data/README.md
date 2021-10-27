@@ -1,4 +1,4 @@
-Contents of public repository:  
+## Contents of public repository  
 
 [full-training-data-set.csv](https://github.com/devoworm/Digital-Bacillaria/blob/master/Public%20Data/full-training-data-set.csv): Contents of full training set use for DeepLab v3 implementation.  
 
