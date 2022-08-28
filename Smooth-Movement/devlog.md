@@ -18,3 +18,11 @@ These links were helpful - [Torch installation](https://detectron2.readthedocs.i
 
 I've installed the requirements to activate the Object detection and instance segmentation. 
 
+
+
+| Explanation                               | Image                                                        |
+| ----------------------------------------- | ------------------------------------------------------------ |
+|                                           |                                                              |
+|                                           |                                                              |
+| I've used the tool of tracking in a video | ![image-20220828215750095](devlog.assets/image-20220828215750095.png) |
+
