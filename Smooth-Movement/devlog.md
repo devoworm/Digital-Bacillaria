@@ -26,3 +26,15 @@ I've installed the requirements to activate the Object detection and instance se
 |                                           |                                                              |
 | I've used the tool of tracking in a video | ![image-20220828215750095](devlog.assets/image-20220828215750095.png) |
 
+
+
+## 2022-08-29
+
+| Exp                                                          | Img                                                          |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| I'm trying to harris corner detec the spots                  | ![image-20220829213227613](devlog.assets/image-20220829213227613.png) |
+| This is a zoom out of the spots . It's from the right side.  | ![image-20220829213259745](devlog.assets/image-20220829213259745.png) |
+| Measuring the pixels it seems like it's around 5-9 pixles. Let's try this wi |                                                              |
+
+
+
