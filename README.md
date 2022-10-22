@@ -63,9 +63,9 @@ Figure 4. Examples of _Bacillaria_ filament moving through the water column (rep
 
 To see where we are in this project, please explore this repo, check out our [collection of open datasets](https://github.com/devoworm/Digital-Bacillaria/tree/master/Public%20Data), or read our publications:
 
-[Towards a Digital Diatom: image processing and deep learning analysis of _Bacillaria paradoxa_ dynamic morphology](https://www.biorxiv.org/content/10.1101/2019.12.21.885897v2).   
+[Towards a Digital Diatom: image processing and deep learning analysis of _Bacillaria paradoxa_ dynamic morphology](https://www.biorxiv.org/content/10.1101/2019.12.21.885897v2). In _Diatom Gliding Motility_, Chapter 10.  
 
-[The Psychophysical World of the Motile Diatom _Bacillaria Paradoxa_](https://vixra.org/abs/2204.0082).   
+[The Psychophysical World of the Motile Diatom _Bacillaria Paradoxa_](https://vixra.org/abs/2204.0082). In _Mathematics and Biology of Diatoms_, Chapter 9.  
 
 ## General References (numbered in alphabetical order):
 [1] Sabater, S. (2009). [Diatoms](https://www.sciencedirect.com/science/article/pii/B9780123706263001356). _Encyclopedia of Inland Waters_, 149-156. doi:10.1016/B978-012370626-3.00135-6
